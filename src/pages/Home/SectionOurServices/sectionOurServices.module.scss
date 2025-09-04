@@ -1,0 +1,187 @@
+@import "../../../styles/variables.scss";
+.wrapper {
+  padding-bottom: 48px;
+}
+
+.header {
+  text-align: center;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.8));
+  /* Headline/Medium (H2) */
+  font-family: "Familjen Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    0deg,
+    #a1835d -5.56%,
+    #f3e2af 44.41%,
+    #a1835d 94.44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 16px;
+}
+
+.list {
+  margin-bottom: 16px;
+}
+
+.item_card {
+  border-radius: 6px;
+  border: 1px solid rgba(243, 226, 175, 0.15);
+
+  background-image: url(../../../img/shield-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 44px 24px 24px 24px;
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.icon_wrapper {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  margin-bottom: 12px;
+}
+
+.header_card {
+  color: var(--Key-White, #fff);
+  text-align: center;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+
+  font-family: "Familjen Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 130% */
+  text-transform: uppercase;
+
+  margin-bottom: 12px;
+}
+
+.text_card {
+  overflow: hidden;
+  color: #8c8c8c;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: -0.8px;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+
+  margin-bottom: 40px;
+}
+
+.wrapper_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  max-width: 246px;
+  width: 100%;
+}
+
+@media screen and (min-width: 530px) and (max-width: 1279px) {
+  .item_card {
+    background-size: contain;
+    background-position: 200px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    padding-bottom: 56px;
+  }
+
+  .header {
+    margin-bottom: 24px;
+  }
+
+  .item_card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    // background-image: url(../../../img/shield-bg.svg);
+    background-size: auto;
+    // background-repeat: no-repeat;
+    background-position: 650px;
+
+    padding: 40px 0 40px 40px;
+  }
+
+  .icon_wrapper {
+    margin-right: 112px;
+    display: block;
+
+    width: auto;
+
+    margin-bottom: 0;
+  }
+
+  .header_card {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+
+    margin-bottom: 24px;
+
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: 0.64px;
+  }
+  .text_card {
+    text-align: left;
+    margin-bottom: 16px;
+
+    max-width: 574px;
+
+    -webkit-line-clamp: 2;
+  }
+  .wrapper_btn {
+    justify-content: flex-start;
+  }
+
+  .wrapper_btn_desk {
+    justify-content: center;
+  }
+  .btn {
+    & span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      & .arrow {
+        fill: #422e11;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .list {
+    margin-bottom: 24px;
+  }
+}

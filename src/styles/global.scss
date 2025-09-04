@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  background-color: #080600;
+  background-image: radial-gradient(
+    ellipse 700px 200px at 50% 30%,
+    rgba(161, 131, 93, 0.15) 0%,
+    transparent 70%
+  );
+  background-repeat: no-repeat;
+
+  font-family: "Familjen Grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  @media screen and (max-width: 360px) {
+    max-width: 360px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}
+
+// .inter-<uniquifier> {
+//   font-family: "Inter", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+// }
+
+// .splide__slide {
+//   width: auto !important;
+// }
+
+// .splide__list {
+//   // justify-content: center !important;
+// }
+
+.white {
+  color: white;
+}

@@ -1,0 +1,41 @@
+{
+  "welcomeMessage": "Ласкаво просимо на наш сайт!",
+  "header": {
+    "title": "Головна сторінка",
+    "services": "Послуги",
+    "about": "Про нас"
+  },
+
+  "askedQuestions": {
+    "title": "Часті запитання",
+
+    "cards": {
+      "cardOne": {
+        "title": "Для чого цей сайт?",
+        "subtitle": "Судячи з назви LUXGUARD PRESTIGE GROUP та всіх елементів, які ми обговорювали (дизайн, тексти, функціонал), цей сайт призначений для преміальної охоронної компанії, що надає елітні послуги безпеки"
+      },
+      "cardTwo": {
+        "title": "Для чого цей сайт?",
+        "subtitle": "Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum. Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum."
+      },
+      "cardThree": {
+        "title": "Для чого цей сайт?",
+        "subtitle": "Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum. Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum."
+      },
+      "cardFour": {
+        "title": "Для чого цей сайт?",
+        "subtitle": "Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum. Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum."
+      }
+    }
+  },
+
+  "buttons": {
+    "btnGetInTouch": "Робіт",
+    "btnOurServices": "Ага",
+    "btnMoreAboutUs": "АСС",
+    "btnLearnMore": "Більше",
+    "btnCallMeBack": "Калл назад",
+    "btnIllCallYou": "Калл тобі",
+    "btnBookConsultation": "Щось про бук"
+  }
+}

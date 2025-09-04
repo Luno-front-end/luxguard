@@ -1,0 +1,43 @@
+.wrapper_modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  max-width: 360px;
+  height: 100vh;
+
+  z-index: 200;
+
+  max-width: 360px;
+  height: 100vh;
+
+  background: linear-gradient(
+      90deg,
+      rgba(243, 226, 175, 0.05) 0%,
+      rgba(4, 4, 4, 0.03) 100%
+    ),
+    rgba(10, 10, 10, 0.4);
+  backdrop-filter: blur(14px);
+
+  padding: 24px 16px 0 16px;
+  transform: translateX(100%);
+  //   transform: translateX(0);
+
+  transition: all 0.3s linear;
+}
+
+.wrapper_modal_active {
+  transform: translateX(0);
+  transition: all 0.3s linear;
+}
+
+.container_radio_modal {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 1280px) {
+  .container_radio_modal {
+    min-width: 328px;
+    width: 100%;
+  }
+}

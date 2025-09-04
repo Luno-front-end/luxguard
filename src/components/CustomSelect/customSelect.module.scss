@@ -1,0 +1,105 @@
+// CustomSelect.module.scss
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  user-select: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  background-color: transparent;
+
+  color: rgba(255, 255, 255, 0.5);
+
+  padding: 12px 8px 12px 20px;
+
+  &.withCustomPholder {
+    padding: 16.5px 8px 7.5px 20px;
+  }
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    /* Body/Large */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.8px;
+  }
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.topLabel {
+  background: linear-gradient(
+    0deg,
+    #a1835d -5.56%,
+    #f3e2af 44.41%,
+    #a1835d 94.44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Label/Small */
+  font-family: "Familjen Grotesk";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px; /* 120% */
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.optionsList {
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  right: 0;
+  box-sizing: border-box;
+
+  width: calc(100% + 2px);
+  background-color: #040300;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid rgba(243, 226, 175, 0.15);
+  border-top: none;
+  list-style: none;
+  margin: 0;
+  z-index: 10;
+  max-height: 90px;
+  overflow-y: auto;
+}
+
+.option {
+  padding: 8px 8px 8px 20px;
+  color: #f3e2af;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.8px;
+}

@@ -1,0 +1,134 @@
+@import "../../styles/variables.scss";
+
+// .wrapper {
+//   display: flex;
+//   align-items: center;
+
+//   padding: 12px 8px;
+
+//   margin-right: 12px;
+
+//   max-width: 244px;
+
+//   border-radius: var(--border-radius-corners-6-px, 6px);
+//   border: 1.2px solid rgba(142, 92, 36, 0);
+
+//   background: linear-gradient(180deg, #0a0a0a 0%, #0a0a0a 63.07%, #33291c 100%);
+
+//   backdrop-filter: blur(16px);
+// }
+
+// .wrapper_icon {
+//   margin-right: 6px;
+// }
+
+// .wrapper_text {
+// }
+
+// .title_carousel {
+//   color: $white;
+
+//   margin-bottom: 6px;
+
+//   font-family: Inter;
+//   font-size: 12px;
+//   font-weight: 300;
+//   line-height: 14px;
+//   letter-spacing: -0.6px;
+// }
+
+// .subtitle_carousel {
+//   background: linear-gradient(
+//     0deg,
+//     #a1835d -5.56%,
+//     #f3e2af 44.41%,
+//     #a1835d 94.44%
+//   );
+//   background-clip: text;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+
+//   font-size: 14px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 16px;
+//   text-transform: uppercase;
+//   text-wrap: nowrap;
+// }
+
+.container_carousel {
+  padding-left: 16px;
+}
+
+.wrapper_carousel {
+  display: flex;
+  align-items: center;
+
+  padding: 12px 8px;
+
+  margin-right: 12px;
+
+  max-width: 244px;
+
+  border-radius: var(--border-radius-corners-6-px, 6px);
+  // border: 1.2px solid rgba(142, 92, 36, 0);
+  border: 1.2px solid transparent;
+
+  border-image-source: linear-gradient(
+    276deg,
+    rgba(142, 92, 36, 0) 0.96%,
+    rgba(243, 226, 175, 0.3) 46.83%,
+    rgba(142, 92, 36, 0) 99.34%
+  );
+
+  /* 3. Вказуємо, як "нарізати" це зображення. Для суцільного градієнта '1' - ідеальний варіант. */
+  border-image-slice: 1;
+
+  background: linear-gradient(180deg, #0a0a0a 0%, #0a0a0a 63.07%, #33291c 100%);
+
+  backdrop-filter: blur(16px);
+}
+
+.wrapper_carousel_icon {
+  margin-right: 6px;
+}
+
+.wrapper_text {
+}
+
+.title_carousel {
+  color: $white;
+
+  margin-bottom: 6px;
+
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: -0.6px;
+}
+
+.subtitle_carousel {
+  background: linear-gradient(
+    0deg,
+    #a1835d -5.56%,
+    #f3e2af 44.41%,
+    #a1835d 94.44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

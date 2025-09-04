@@ -1,0 +1,129 @@
+.wrapper {
+  position: fixed;
+  width: 100%;
+  padding: 14px 16px;
+
+  background: rgba(15, 15, 15, 0.2);
+
+  border-bottom: 1px solid rgba(142, 92, 36, 0.3);
+
+  backdrop-filter: blur(6px);
+
+  z-index: 100;
+}
+.wrapper_fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 6px;
+}
+
+.btn_logo {
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .menu {
+    width: 24px;
+    height: 24px;
+  }
+
+  // .logo {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  // }
+
+  .btn_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // background: transparent;
+    // border: none;
+    // padding: 0;
+    // box-shadow: none;
+  }
+
+  .container_radio {
+    display: inline-flex;
+    border-radius: 8px;
+    padding: 3px;
+
+    border: 1px solid rgba(243, 226, 175, 0.3);
+
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(248, 190, 96, 0.08) 0%,
+        rgba(213, 178, 101, 0.08) 100%
+      ),
+      linear-gradient(180deg, #1a1a1a 0%, rgba(26, 26, 26, 0) 65.8%), #040404;
+
+    // margin-bottom: 24px;
+    margin-right: 16px;
+  }
+
+  .input_radio {
+    display: none;
+  }
+
+  .label {
+    padding: 6px 12px;
+
+    border-radius: 4px;
+
+    color: #fff;
+    text-align: center;
+
+    font-family: "Familjen Grotesk";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px; /* 120% */
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: all 0.3s linear;
+
+    &:not(:last-child) {
+      margin-right: 2px;
+    }
+  }
+
+  .input_radio:checked + .label {
+    padding: 6px 12px;
+    width: 50%;
+
+    border-radius: 4px;
+    background: rgba(243, 226, 175, 0.08);
+
+    color: #f3e2af;
+    text-align: center;
+
+    font-family: "Familjen Grotesk";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  .btn_desk {
+    padding: 15px 20px;
+  }
+}

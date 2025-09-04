@@ -1,0 +1,785 @@
+{
+  "welcomeMessage": "Welcome to our website!",
+  "header": {
+    "title": "Main Page",
+    "services": "Services",
+    "about": "About Us"
+  },
+
+  "hero": {
+    "title": "When your",
+    "titleAllServices": "any Service when",
+    "titleVipProtection": "Safety, control, confidence",
+
+    "subtitle": "security matters!",
+    "subtitleVipProtection": "personal VIP protection",
+    "cards": {
+      "cardOne": {
+        "title": "Protected. Secured. Ready.",
+        "subtitle": "Your safety — our mission"
+      },
+      "cardTwo": {
+        "title": "Eyes on — always.",
+        "subtitle": "24/7 Tactical Control."
+      },
+      "cardThree": {
+        "title": "Red zones. Zero hesitation.",
+        "subtitle": "We go where others won't"
+      }
+    }
+  },
+
+  "prestigeGroup": {
+    "title": "WHY LUXGUARD PRESTIGE GROUP",
+    "cards": {
+      "cardOne": {
+        "title": "More, than security",
+        "subtitle": "We’re a strategic partner offering personal protection, armored transport, VIP escorting, crisis consulting, and risk management in high-risk environments."
+      },
+      "cardTwo": {
+        "title": "Experience that speaks for itself",
+        "subtitle": "Our team includes former special forces, government agents, and diplomats — trained to act under pressure, in conflict zones, and emergencies."
+      },
+      "cardThree": {
+        "title": "Privacy and threat prevention",
+        "subtitle": "We deliver proven, confidential solutions that stay ahead of threats — trusted by leaders, diplomats, and international delegations."
+      },
+      "cardFour": {
+        "title": "Geo presence and flexibility",
+        "subtitle": "Operating across Ukraine, the EU, and border regions — wherever reliability and strategic thinking are essential."
+      }
+    }
+  },
+
+  "ourServices": {
+    "title": "our Services",
+    "titlePage": "all our Services",
+
+    "cards": {
+      "cardOne": {
+        "title_first": "personal",
+        "title_second": "VIP protection",
+        "subtitle": "In the modern rhythm of life, security must be discreet yet absolute. LUXGUARD PRESTIGE GROUP provides personal protection for VIPs in Ukraine and abroad—creating conditions where you can fully concentrate on negotiations, decision-making, or public events. We operate in a 'silent presence' format, which does not attract attention but keeps the situation completely under control. This is not just security. This is personalized risk management in real time.",
+        "info": {
+          "title": "Clean, control and quality",
+          "text": "In the modern rhythm of life, security should be invisible, but absolute. LUXGUARD PRESTIGE GROUP provides personal protection to VIPs in Ukraine and abroad — creating conditions in which you can fully focus on negotiations, decision-making or public events. We act in the «format of a quiet presence» that does not attract attention, but completely keeps the situation under control. It's — not just security. This is personalized risk management in real time.",
+          "one_block": {
+            "title": "LUXGUARD provides",
+            "list": {
+              "one": {
+                "title": "Personal Security Officer (CPO) with combat,",
+                "subtitle": "government or diplomatic experience"
+              },
+              "two": {
+                "title": "Premium cars with a driver-guard",
+                "subtitle": "(Mercedes-Benz V-Class)"
+              },
+              "three": {
+                "title": "Armored vehicles (protection level B6/B7) —",
+                "subtitle": "on individual request"
+              },
+              "four": {
+                "title": "Route planning, risk assessment and control",
+                "subtitle": "of key points"
+              },
+              "five": {
+                "title": "Real-time Global Positioning System (GPS)",
+                "subtitle": "monitoring"
+              },
+              "six": {
+                "title": "Compliance with complete confidentiality",
+                "subtitle": "and discretion at all stages of interaction"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Who is this service for",
+            "list": {
+              "one": {
+                "title": "High-ranking officials and government representatives"
+              },
+              "two": {
+                "title": "Business leaders, investors, top management"
+              },
+              "three": {
+                "title": "Public figures, artists, diplomats"
+              },
+              "four": {
+                "title": "Foreign delegations and strategic visits"
+              },
+              "five": {
+                "title": "VIP guests of conferences, events, and international summits"
+              }
+            }
+          },
+          "title_second": "Security is not a demonstration of force. It is the space to focus on what matters.",
+          "text_second": "LUXGUARD PRESTIGE GROUP creates not only safe routes but also an atmosphere of complete confidence, where every step is controlled, discreet, and well-thought-out."
+        }
+      },
+      "cardTwo": {
+        "title_first": "premium level International",
+        "title_second": "transportation",
+        "subtitle": "In an environment where every minute matters, where one meeting can change the course of events, transport ceases to be just a means of getting around—it becomes an instrument of influence. LUXGUARD PRESTIGE GROUP provides international mobility for those accustomed to acting with precision, speed, and effectiveness. We organize personal and corporate transportation between Ukraine and EU countries, adapting each route to your schedule, level of publicity, security challenges, and geopolitical context. We don't just deliver—we synchronize with your rhythm, transforming logistics into a part of your strategy.",
+        "info": {
+          "title": "Time. Access. Control. Logistics for Those Who Act.",
+          "text": "In an environment where every minute matters, where one meeting can change the course of events, transport ceases to be just a means of getting around—it becomes an instrument of influence. LUXGUARD PRESTIGE GROUP provides international mobility for those accustomed to acting with precision, speed, and effectiveness. We organize personal and corporate transportation between Ukraine and EU countries, adapting each route to your schedule, level of publicity, security challenges, and geopolitical context. We don't just deliver—we synchronize with your rhythm, transforming logistics into a part of your strategy.",
+          "one_block": {
+            "title": "LUXGUARD provides",
+            "list": {
+              "one": {
+                "title": "Personal and business transfers to Poland, Romania, Moldova, Slovakia,",
+                "subtitle": "and other EU countries"
+              },
+              "two": {
+                "title": "Mercedes-Benz V-Class, Toyota Land Cruiser, Volkswagen",
+                "subtitle": "Multivan—with drivers certified to work with VIPs"
+              },
+              "three": {
+                "title": "Transportation for delegations, investors, diplomats,",
+                "subtitle": "and top management"
+              },
+              "four": {
+                "title": "Route development considering traffic, border queues,",
+                "subtitle": "risk analysis, and a Plan B"
+              },
+              "five": {
+                "title": "Full logistics support for international events,",
+                "subtitle": "negotiations, business forums, and summits"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Who is this service for",
+            "list": {
+              "one": {
+                "title": "CEOs, business owners, international partners"
+              },
+              "two": {
+                "title": "Participants of strategic negotiations, conferences, and closed forums"
+              },
+              "three": {
+                "title": "Foreign investors, VIP delegations, embassy representatives"
+              },
+              "four": {
+                "title": "Organizers of high-level state and private visits"
+              }
+            }
+          },
+          "title_second": "Punctuality is not an advantage. It is the standard.",
+          "text_second": "We help you be where you need to be, at the moment when it truly matters. Without force majeure. Without delays. Without explanations. LUXGUARD is not just transportation. It is the logistics of solutions in a premium execution."
+        }
+      },
+      "cardThree": {
+        "title_first": "VIP transfer",
+        "title_second": "by armored van",
+        "subtitle": "For situations where there is no room for error, we create armored confidence. There are routes where a standard level of security is insufficient. Visits to high-risk regions, participation in strategic negotiations, public exposure, or a direct threat—all these require protected mobility that will not fail. LUXGUARD PRESTIGE GROUP provides VIP clients with armored vehicles with professional security drivers. External discretion—internal strategic protection. Level B6/B7, control systems, a prepared crew, 24/7 communication—every element works for your safety. You manage the decisions—we control the route.",
+        "info": {
+          "title": "VIP transfer by armored van",
+          "text": "In an environment where every minute matters, where one meeting can change the course of events, transport ceases to be just a means of getting around—it becomes an instrument of influence. LUXGUARD PRESTIGE GROUP provides international mobility for those accustomed to acting with precision, speed, and effectiveness. We organize personal and corporate transportation between Ukraine and EU countries, adapting each route to your schedule, level of publicity, security challenges, and geopolitical context. We don't just deliver—we synchronize with your rhythm, transforming logistics into a part of your strategy.",
+          "one_block": {
+            "title": "LUXGUARD offer",
+            "list": {
+              "one": {
+                "title": "Armored vehicles (protection level B6/B7): Mercedes-Benz V-Class,",
+                "subtitle": "Toyota Land Cruiser 200/300, Lexus LX 570, Volkswagen Multivan"
+              },
+              "two": {
+                "title": "Security drivers with military, law enforcement,",
+                "subtitle": "or diplomatic experience"
+              },
+              "three": {
+                "title": "Route planning with calculation of threats,",
+                "subtitle": "traffic jams, and risk points"
+              },
+              "four": {
+                "title": "Optional escort by one or more CPO specialists",
+                "subtitle": "(Close Protection Officers)"
+              },
+              "five": {
+                "title": "GPS monitoring, 24/7 communication with the dispatch headquarters,",
+                "subtitle": "double route redundancy"
+              },
+              "six": {
+                "title": "Additional equipment: secure communications, passive defense systems, an advanced first-aid kit,",
+                "subtitle": "movement blocking systems, an emergency protocol."
+              }
+            }
+          },
+          "two_block": {
+            "title": "Who is this service for",
+            "list": {
+              "one": {
+                "title": "VIPs traveling in high-threat zones"
+              },
+              "two": {
+                "title": "Diplomats, civil servants, and special delegations"
+              },
+              "three": {
+                "title": "Foreign investors during visits to unstable regions"
+              },
+              "four": {
+                "title": "Business people conducting high-level negotiations or participating in confidential events"
+              },
+              "five": {
+                "title": "Individuals with a specific threat profile"
+              }
+            }
+          },
+          "title_second": "Protection that needs no demonstration.",
+          "text_second": "We don't just transport. We provide a secure space where you control the situation while remaining discreet—and fully protected. LUXGUARD—armored confidence on every route."
+        }
+      }
+    },
+    "additionalCards": {
+      "cardOne": {
+        "title_first": "personal",
+        "title_second": "VIP protection",
+        "subtitle": "In the modern rhythm of life, security must be discreet yet absolute. LUXGUARD PRESTIGE GROUP provides personal protection for VIPs in Ukraine and abroad—creating conditions where you can fully concentrate on negotiations, decision-making, or public events. We operate in a 'silent presence' format, which does not attract attention but keeps the situation completely under control. This is not just security. This is personalized risk management in real time.",
+        "info": {
+          "title": "Clean, control and quality",
+          "text": "In the modern rhythm of life, security should be invisible, but absolute. LUXGUARD PRESTIGE GROUP provides personal protection to VIPs in Ukraine and abroad — creating conditions in which you can fully focus on negotiations, decision-making or public events. We act in the «format of a quiet presence» that does not attract attention, but completely keeps the situation under control. It's — not just security. This is personalized risk management in real time.",
+          "one_block": {
+            "title": "LUXGUARD provides",
+            "list": {
+              "one": {
+                "title": "Personal Security Officer (CPO) with combat,",
+                "subtitle": "government or diplomatic experience"
+              },
+              "two": {
+                "title": "Premium cars with a driver-guard",
+                "subtitle": "(Mercedes-Benz V-Class)"
+              },
+              "three": {
+                "title": "Armored vehicles (protection level B6/B7) —",
+                "subtitle": "on individual request"
+              },
+              "four": {
+                "title": "Route planning, risk assessment and control",
+                "subtitle": "of key points"
+              },
+              "five": {
+                "title": "Real-time Global Positioning System (GPS)",
+                "subtitle": "monitoring"
+              },
+              "six": {
+                "title": "Compliance with complete confidentiality",
+                "subtitle": "and discretion at all stages of interaction"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Who is this service for",
+            "list": {
+              "one": {
+                "title": "High-ranking officials and government representatives"
+              },
+              "two": {
+                "title": "Business leaders, investors, top management"
+              },
+              "three": {
+                "title": "Public figures, artists, diplomats"
+              },
+              "four": {
+                "title": "Foreign delegations and strategic visits"
+              },
+              "five": {
+                "title": "VIP guests of conferences, events, and international summits"
+              }
+            }
+          },
+          "title_second": "Security is not a demonstration of force. It is the space to focus on what matters.",
+          "text_second": "LUXGUARD PRESTIGE GROUP creates not only safe routes but also an atmosphere of complete confidence, where every step is controlled, discreet, and well-thought-out."
+        }
+      },
+      "cardTwo": {
+        "title_first": "premium level International",
+        "title_second": "transportation",
+        "subtitle": "In an environment where every minute matters, where one meeting can change the course of events, transport ceases to be just a means of getting around—it becomes an instrument of influence. LUXGUARD PRESTIGE GROUP provides international mobility for those accustomed to acting with precision, speed, and effectiveness. We organize personal and corporate transportation between Ukraine and EU countries, adapting each route to your schedule, level of publicity, security challenges, and geopolitical context. We don't just deliver—we synchronize with your rhythm, transforming logistics into a part of your strategy.",
+        "info": {
+          "title": "Time. Access. Control. Logistics for Those Who Act.",
+          "text": "In an environment where every minute matters, where one meeting can change the course of events, transport ceases to be just a means of getting around—it becomes an instrument of influence. LUXGUARD PRESTIGE GROUP provides international mobility for those accustomed to acting with precision, speed, and effectiveness. We organize personal and corporate transportation between Ukraine and EU countries, adapting each route to your schedule, level of publicity, security challenges, and geopolitical context. We don't just deliver—we synchronize with your rhythm, transforming logistics into a part of your strategy.",
+          "one_block": {
+            "title": "LUXGUARD provides",
+            "list": {
+              "one": {
+                "title": "Personal and business transfers to Poland, Romania, Moldova, Slovakia,",
+                "subtitle": "and other EU countries"
+              },
+              "two": {
+                "title": "Mercedes-Benz V-Class, Toyota Land Cruiser, Volkswagen",
+                "subtitle": "Multivan—with drivers certified to work with VIPs"
+              },
+              "three": {
+                "title": "Transportation for delegations, investors, diplomats,",
+                "subtitle": "and top management"
+              },
+              "four": {
+                "title": "Route development considering traffic, border queues,",
+                "subtitle": "risk analysis, and a Plan B"
+              },
+              "five": {
+                "title": "Full logistics support for international events,",
+                "subtitle": "negotiations, business forums, and summits"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Who is this service for",
+            "list": {
+              "one": {
+                "title": "CEOs, business owners, international partners"
+              },
+              "two": {
+                "title": "Participants of strategic negotiations, conferences, and closed forums"
+              },
+              "three": {
+                "title": "Foreign investors, VIP delegations, embassy representatives"
+              },
+              "four": {
+                "title": "Organizers of high-level state and private visits"
+              }
+            }
+          },
+          "title_second": "Punctuality is not an advantage. It is the standard.",
+          "text_second": "We help you be where you need to be, at the moment when it truly matters. Without force majeure. Without delays. Without explanations. LUXGUARD is not just transportation. It is the logistics of solutions in a premium execution."
+        }
+      },
+      "cardThree": {
+        "title_first": "VIP transfer",
+        "title_second": "by armored van",
+        "subtitle": "For situations where there is no room for error, we create armored confidence. There are routes where a standard level of security is insufficient. Visits to high-risk regions, participation in strategic negotiations, public exposure, or a direct threat—all these require protected mobility that will not fail. LUXGUARD PRESTIGE GROUP provides VIP clients with armored vehicles with professional security drivers. External discretion—internal strategic protection. Level B6/B7, control systems, a prepared crew, 24/7 communication—every element works for your safety. You manage the decisions—we control the route.",
+        "info": {
+          "title": "VIP transfer by armored van",
+          "text": "For situations where there is no room for error, we create armored confidence. There are routes where a standard level of security is insufficient. Visits to high-risk regions, participation in strategic negotiations, public exposure, or a direct threat—all these require protected mobility that will not fail. LUXGUARD PRESTIGE GROUP provides VIP clients with armored vehicles with professional security drivers. External discretion—internal strategic protection. Level B6/B7, control systems, a prepared crew, 24/7 communication—every element works for your safety.",
+          "one_block": {
+            "title": "LUXGUARD offer",
+            "list": {
+              "one": {
+                "title": "Armored vehicles (protection level B6/B7): Mercedes-Benz V-Class,",
+                "subtitle": "Toyota Land Cruiser 200/300, Lexus LX 570, Volkswagen Multivan"
+              },
+              "two": {
+                "title": "Security drivers with military, law enforcement,",
+                "subtitle": "or diplomatic experience"
+              },
+              "three": {
+                "title": "Route planning with calculation of threats,",
+                "subtitle": "traffic jams, and risk points"
+              },
+              "four": {
+                "title": "Optional escort by one or more CPO specialists",
+                "subtitle": "(Close Protection Officers)"
+              },
+              "five": {
+                "title": "GPS monitoring, 24/7 communication with the dispatch headquarters,",
+                "subtitle": "double route redundancy"
+              },
+              "six": {
+                "title": "Additional equipment: secure communications, passive defense systems, an advanced first-aid kit,",
+                "subtitle": "movement blocking systems, an emergency protocol."
+              }
+            }
+          },
+          "two_block": {
+            "title": "Who is this service for",
+            "list": {
+              "one": {
+                "title": "VIPs traveling in high-threat zones"
+              },
+              "two": {
+                "title": "Diplomats, civil servants, and special delegations"
+              },
+              "three": {
+                "title": "Foreign investors during visits to unstable regions"
+              },
+              "four": {
+                "title": "Business people conducting high-level negotiations or participating in confidential events"
+              },
+              "five": {
+                "title": "Individuals with a specific threat profile"
+              }
+            }
+          },
+          "title_second": "Protection that needs no demonstration.",
+          "text_second": "We don't just transport. We provide a secure space where you control the situation while remaining discreet—and fully protected. LUXGUARD—armored confidence on every route."
+        }
+      },
+      "cardFour": {
+        "title_first": "Transfers",
+        "title_second": "Ukraine/EU",
+        "subtitle": "Where punctuality is a principle. And security is a condition. In a rhythm where every minute can affect the outcome, it is important not just to get to the destination. It is important to arrive on time, safely, without unnecessary questions—with full confidence in the logistics and control of every stage. LUXGUARD PRESTIGE GROUP organizes transfers throughout Ukraine, to border zones, and to European Union countries. Each route is an individually designed scenario, where time, transport, escort, and communication are coordinated.",
+        "info": {
+          "title": "Transfers Ukraine/EU",
+          "text": "Where punctuality is a principle. And security is a condition. In a rhythm where every minute can affect the outcome, it is important not just to get to the destination. It is important to arrive on time, safely, without unnecessary questions—with full confidence in the logistics and control of every stage. LUXGUARD PRESTIGE GROUP organizes transfers throughout Ukraine, to border zones, and to European Union countries. Each route is an individually designed scenario, where time, transport, escort, and communication are coordinated.",
+          "one_block": {
+            "title": "LUXGUARD work with those who",
+            "list": {
+              "one": {
+                "title": "Have a tight schedule of meetings, events,",
+                "subtitle": "flights, and movements"
+              },
+              "two": {
+                "title": "Value confidentiality, punctuality, and",
+                "subtitle": "impeccable vehicle presentation"
+              },
+              "three": {
+                "title": "Need more than just a transfer, but a service with elements of security,",
+                "subtitle": "control, and adaptation to the route"
+              }
+            }
+          },
+          "two_block": {
+            "title": "What we offer",
+            "list": {
+              "one": {
+                "title": "Transfers in Kyiv, regions, border, and critical zones"
+              },
+              "two": {
+                "title": "Trips to Poland, Romania, Moldova, Slovakia, and other EU countries"
+              },
+              "three": {
+                "title": "Optional escort by a security officer (CPO)—upon request"
+              },
+              "four": {
+                "title": "24/7 dispatch support, online monitoring, and communication with the crew"
+              },
+              "five": {
+                "title": "Choice between a premium or armored vehicle, depending on the client's profile and route"
+              }
+            }
+          },
+          "title_second": "How we work",
+          "text_second": "For each request, an individual route is created, and a car, driver, crew, and escort format are selected. Everything is in accordance with the level of the event, security needs, and client expectations. You arrive where you need to be. Exactly when you need to. And exactly as it should be. LUXGUARD is a transfer where everything is taken into account down to the details: your rhythm, security, and flawless presentation. You don't waste time on details. You just get behind the wheel—or in the cabin—and move on. LUXGUARD is a car rental that doesn't distract but supports your lifestyle. Everything is already prepared. All you have to do is set off."
+        }
+      },
+      "cardFive": {
+        "title_first": "Safe logistics",
+        "title_second": "and VIP delivery",
+        "subtitle": "Secure logistics—when trust is more important than speed. In critical tasks, every minute of movement matters—but trust matters even more. LUXGUARD PRESTIGE GROUP offers individual logistics solutions for VIP clients, where security, confidentiality, and route control are the foundation of the service. We organize the delivery of documents, valuable cargo, contracts, or medical samples, with a guarantee of preservation and control at every stage of the journey.",
+        "info": {
+          "title": "Safe logistics and VIP delivery",
+          "text": "Secure logistics—when trust is more important than speed. In critical tasks, every minute of movement matters—but trust matters even more. LUXGUARD PRESTIGE GROUP offers individual logistics solutions for VIP clients, where security, confidentiality, and route control are the foundation of the service. We organize the delivery of documents, valuable cargo, contracts, or medical samples, with a guarantee of preservation and control at every stage of the journey.",
+          "one_block": {
+            "title": "What our services include",
+            "list": {
+              "one": {
+                "title": "VIP delivery between cities and",
+                "subtitle": "countries (Ukraine / EU)"
+              },
+              "two": {
+                "title": "Courier solutions with elements of",
+                "subtitle": "security and discretion"
+              },
+              "three": {
+                "title": "Hand-to-hand delivery—with protocol, signatures,",
+                "subtitle": "and documentation"
+              },
+              "four": {
+                "title": "Route with GPS monitoring and 24/7",
+                "subtitle": "dispatch support"
+              },
+              "five": {
+                "title": "A security driver or a trained logistician,",
+                "subtitle": "upon request"
+              },
+              "six": {
+                "title": "Adaptation to events, critical zones, time windows,",
+                "subtitle": "or conflict situations"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Who is this relevant for",
+            "list": {
+              "one": {
+                "title": "Business clients, lawyers, investors"
+              },
+              "two": {
+                "title": "Medical, diplomatic, humanitarian missions"
+              },
+              "three": {
+                "title": "VIPs in need of a secure and discreet solution"
+              }
+            }
+          },
+          "title_second": "We don't just deliver.",
+          "text_second": "We create controlled logistics, where every step of the route is confirmed—and your peace of mind is not at risk."
+        }
+      },
+      "cardSix": {
+        "title_first": "Premium",
+        "title_second": "car rental",
+        "subtitle": "Your Space. Your Rhythm. Your Style—on wheels. When your mobility is part of your image, a car must be more than just a means of transportation. It must match your level, your schedule, your standard. LUXGUARD PRESTIGE GROUP offers a fleet of premium cars, each carefully prepared and thought out to the last detail. This isn't just a car rental. It is a service where you are in charge, and we provide quality, technical readiness, confidentiality, and 24/7 support.",
+        "info": {
+          "title": "Premium car rental",
+          "text": "Your Space. Your Rhythm. Your Style—on wheels. When your mobility is part of your image, a car must be more than just a means of transportation. It must match your level, your schedule, your standard. LUXGUARD PRESTIGE GROUP offers a fleet of premium cars, each carefully prepared and thought out to the last detail. This isn't just a car rental. It is a service where you are in charge, and we provide quality, technical readiness, confidentiality, and 24/7 support.",
+          "one_block": {
+            "title": "Car classes we provide:",
+            "list": {
+              "one": {
+                "title": "Premium—for those accustomed to",
+                "subtitle": "the highest level"
+              },
+              "two": {
+                "title": "Business—executive cars for business trips",
+                "subtitle": "and official events"
+              },
+              "three": {
+                "title": "SUVs—power, versatility, and",
+                "subtitle": "comfort on any road"
+              },
+              "four": {
+                "title": "Minivans—space and convenience for delegations,",
+                "subtitle": "families, or group transfers"
+              },
+              "five": {
+                "title": "Sedans and Hatchbacks—on request, for",
+                "subtitle": "daily use or special events"
+              },
+              "six": {
+                "title": "Armored Cars—for routes with special",
+                "subtitle": "security requirements"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Why Choose Us:",
+            "list": {
+              "one": {
+                "title": "Prompt 24/7 vehicle delivery in Kyiv and across Ukraine"
+              },
+              "two": {
+                "title": "Technical inspection before every trip, impeccable cleanliness, vehicle condition control"
+              },
+              "three": {
+                "title": "Flexible rental terms: for a day, an event, a week, or for long-term cooperation"
+              },
+              "four": {
+                "title": "Complete confidentiality, NDA on request, staff experienced in working with VIP clients"
+              },
+              "five": {
+                "title": "Vehicle selection based on the client's tasks: meetings, speeches, forums, escorts, business events"
+              }
+            }
+          },
+          "title_second": "",
+          "text_second": ""
+        }
+      },
+      "cardSeven": {
+        "title_first": "Expert assessment",
+        "title_second": "and consulting",
+        "subtitle": "Security begins with understanding. Security begins with analytics. Effective protection is not just about force, but above all, knowledge. LUXGUARD PRESTIGE GROUP provides strategic expert support, combining years of practice with modern methods of risk assessment, protocol development, and personnel training. We work systematically—with personal bodyguards, corporate clients, diplomatic missions, and organizations that require a precise, well-founded approach to security.",
+        "info": {
+          "title": "Expert assessment and consulting",
+          "text": "Security begins with understanding. Security begins with analytics. Effective protection is not just about force, but above all, knowledge. LUXGUARD PRESTIGE GROUP provides strategic expert support, combining years of practice with modern methods of risk assessment, protocol development, and personnel training. We work systematically—with personal bodyguards, corporate clients, diplomatic missions, and organizations that require a precise, well-founded approach to security.",
+          "one_block": {
+            "title": "Professional Training and Analytical Consulting",
+            "list": {
+              "one": {
+                "title": "Training programs for drivers, CPOs,",
+                "subtitle": "logisticians, security coordinators"
+              },
+              "two": {
+                "title": "Workshops and training for management",
+                "subtitle": "and international delegations"
+              },
+              "three": {
+                "title": "Author's courses from specialists with combat,",
+                "subtitle": "diplomatic, and government backgrounds"
+              },
+              "four": {
+                "title": "Development of movement and",
+                "subtitle": "escort protocols"
+              },
+              "five": {
+                "title": "Risk assessment for routes, locations,",
+                "subtitle": "and events"
+              },
+              "six": {
+                "title": "Preparation for crisis scenarios, evacuations,",
+                "subtitle": "public and confidential events"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Online Courses and Educational Products",
+            "list": {
+              "one": {
+                "title": "Intensives and video courses based on real cases"
+              },
+              "two": {
+                "title": "Certified programs for specific tasks"
+              },
+              "three": {
+                "title": "24/7 access to materials for busy professionals"
+              }
+            }
+          },
+          "title_second": "Key Idea",
+          "text_second": "Security is a system, not improvisation. We don't just perform tasks—we build a security architecture that works."
+        }
+      },
+      "cardEight": {
+        "title_first": "Risk",
+        "title_second": "management",
+        "subtitle": "In a world where instability is part of reality, the winner is the one who has not only a 'Plan A' but also a clear system of action in crisis situations. LUXGUARD PRESTIGE GROUP provides professional consulting for clients who operate in high-risk zones, have a controversial public profile, or need a strategy for dealing with threats.",
+        "info": {
+          "title": "Anticipate. React. Cope.",
+          "text": "In a world where instability is part of reality, the winner is the one who has not only a 'Plan A' but also a clear system of action in crisis situations. LUXGUARD PRESTIGE GROUP provides professional consulting for clients who operate in high-risk zones, have a controversial public profile, or need a strategy for dealing with threats.",
+          "one_block": {
+            "title": "LUXGUARD offer",
+            "list": {
+              "one": {
+                "title": "Analysis of threats and vulnerabilities—",
+                "subtitle": "in business, travel, logistics, PR"
+              },
+              "two": {
+                "title": "Development of anti-crisis scenarios—evacuation plans, actions in case of an attack,",
+                "subtitle": "event disruption, or information disclosure"
+              },
+              "three": {
+                "title": "Real-time support—assistance during crises, coordination with",
+                "subtitle": "law enforcement and security advisors"
+              },
+              "four": {
+                "title": "Building a risk management system in",
+                "subtitle": "a company or personal environment"
+              },
+              "five": {
+                "title": "Information security—confidentiality,",
+                "subtitle": "support in cases of leaks or cyber threats"
+              }
+            }
+          },
+          "two_block": {
+            "title": "Suitable for:",
+            "list": {
+              "one": {
+                "title": "CEOs, board members, public figures"
+              },
+              "two": {
+                "title": "Companies operating in critical sectors or regions"
+              },
+              "three": {
+                "title": "Foreign structures and diplomatic missions"
+              },
+              "four": {
+                "title": "Private individuals with a highly sensitive profile"
+              }
+            }
+          },
+          "title_second": "Our principle:",
+          "text_second": "A crisis cannot always be avoided. But you can always be prepared for it."
+        }
+      }
+    }
+  },
+
+  "personalVIPProtection": {
+    "title": "personal VIP protection",
+    "subtitle": "Safety, control, confidence",
+    "section": {
+      "title": "Clean, control and quality",
+      "text": "In the modern rhythm of life, security should be invisible, but absolute. LUXGUARD PRESTIGE GROUP provides personal protection to VIPs in Ukraine and abroad — creating conditions in which you can fully focus on negotiations, decision-making or public events. We act in the «format of a quiet presence» that does not attract attention, but completely keeps the situation under control. It's — not just security. This is personalized risk management in real time.",
+      "cards": {
+        "title": "LUXGUARD provides",
+        "cardOne": {
+          "title": "Personal Security Officer (CPO) with combat,",
+          "subtitle": "government or diplomatic experience"
+        },
+        "cardTwo": {
+          "title": "Premium cars with a driver-guard",
+          "subtitle": "(Mercedes-Benz V-Class)"
+        },
+        "cardThree": {
+          "title": "Armored vehicles (protection level B6/B7) —",
+          "subtitle": "on individual request"
+        },
+        "cardFour": {
+          "title": "Route planning, risk assessment and control",
+          "subtitle": "of key points"
+        },
+        "cardFive": {
+          "title": "Real-time Global Positioning System (GPS)",
+          "subtitle": "monitoring"
+        },
+        "cardSix": {
+          "title": "Compliance with complete confidentiality ",
+          "subtitle": "and discretion at all stages of interaction"
+        }
+      }
+    }
+  },
+
+  "askedQuestions": {
+    "title": "Frequently Asked Questions",
+
+    "cards": {
+      "cardOne": {
+        "title": "lorem ipsum dolor imen peru?",
+        "subtitle": "Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum. Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum."
+      },
+      "cardTwo": {
+        "title": "lorem ipsum dolor imen peru?",
+        "subtitle": "Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum. Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum."
+      },
+      "cardThree": {
+        "title": "lorem ipsum dolor imen peru?",
+        "subtitle": "Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum. Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum."
+      },
+      "cardFour": {
+        "title": "lorem ipsum dolor imen peru?",
+        "subtitle": "Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum. Lorem ipsum dolor ipsum dolor ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum dolor  ipsum."
+      }
+    }
+  },
+
+  "getInTouch": {
+    "title": "get in touch",
+
+    "subtitle": "Fill in your data and select a service that we can help your goal:",
+    "inputs": {
+      "inputName": {
+        "first": "First name",
+        "req": "Required"
+      },
+      "inputLastName": {
+        "first": "Last name",
+        "req": ""
+      },
+      "inputEmail": {
+        "first": "Email",
+        "req": ""
+      },
+      "inputPhone": {
+        "first": "Phone number",
+        "req": "Required"
+      },
+      "placeholder": {
+        "first": "Placeholder",
+        "req": "Required"
+      },
+      "message": "Write a message if you want to add information"
+    },
+    "policy": {
+      "textFirst": "By submitting, I agree to the",
+      "textSecond": "and",
+      "linkOne": "Privacy policy",
+      "linkTwo": "Terms & Conditions."
+    },
+    "lastText": "Fill in all required data to reserve consultation"
+  },
+
+  "buttons": {
+    "btnGetInTouch": "Get in touch",
+    "btnOurServices": "Our services",
+    "btnMoreAboutUs": "More about us",
+    "btnLearnMore": "Learn more",
+    "btnCallMeBack": "Call me back",
+    "btnIllCallYou": "I`ll call you",
+    "btnAllServices": "All services",
+    "btnBookConsultation": "Book consultation",
+    "btnOtherServices": "other Services"
+  }
+}

@@ -1,0 +1,208 @@
+@import "../../../styles/variables.scss";
+
+.wrapper {
+  padding-top: 24px;
+  padding-bottom: 48px;
+
+  border-top: 1px solid rgba(142, 92, 36, 0);
+
+  backdrop-filter: blur(6px);
+}
+
+.title {
+  text-align: center;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.8));
+  /* Headline/Medium (H2) */
+  font-family: "Familjen Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    0deg,
+    #a1835d -5.56%,
+    #f3e2af 44.41%,
+    #a1835d 94.44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 16px;
+}
+
+.wrapper_carousel {
+  margin-bottom: 16px;
+}
+
+.wrapper_with_border_cart {
+  position: relative;
+}
+
+.border_cart {
+  // padding: 10px 16px;
+  width: 244px;
+  height: 272px;
+  // padding: 24px;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px; /* Adjust as needed for desired roundness */
+  // border: 2px solid transparent; /* Transparent border to define thickness */
+  // border: 2px solid transparent;
+  background: linear-gradient(
+    276deg,
+    rgba(142, 92, 36, 0) 0.96%,
+    rgba(243, 226, 175, 0.3) 46.83%,
+    rgba(142, 92, 36, 0) 99.34%
+  );
+  // mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  // mask-composite: exclude;
+}
+
+.item_cart {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 240px;
+  height: 268px;
+  border-radius: 12px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(51, 41, 28, 0.28) 0%,
+      rgba(4, 4, 4, 0) 65.8%
+    ),
+    #040404;
+
+  padding: 24px;
+}
+
+.number_wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.number_border {
+  width: 40px;
+  height: 40px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px; /* Adjust as needed for desired roundness */
+  border: 1px solid transparent; /* Transparent border to define thickness */
+  background: linear-gradient(
+    276deg,
+    rgba(142, 92, 36, 0) 0.96%,
+    rgba(243, 226, 175, 0.3) 46.83%,
+    rgba(142, 92, 36, 0) 99.34%
+  );
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+.number_cart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  background: linear-gradient(
+    0deg,
+    #a1835d -5.56%,
+    #f3e2af 44.41%,
+    #a1835d 94.44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-align: center;
+  font-family: Cinzel;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+  text-transform: uppercase;
+  z-index: 1000;
+
+  transform: translate(-50%, -50%);
+}
+
+.header_cart {
+  color: var(--Key-White, #fff);
+  text-align: center;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  /* Hedline/Small (H3) */
+  font-family: "Familjen Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 137.5% */
+  text-transform: uppercase;
+
+  margin-bottom: 16px;
+}
+
+.text {
+  overflow: hidden;
+  color: #a3a3a3;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: -0.8px;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+
+.btn_secondary {
+  width: 100%;
+}
+
+.container_cards_desk {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1060px) {
+    .wrapper_with_border_cart {
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+.arrow {
+  fill: #f3e2af;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn_secondary {
+    padding: 15px 20px;
+    width: 246px;
+  }
+  .wrapper_btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper {
+    padding-bottom: 56px;
+  }
+}

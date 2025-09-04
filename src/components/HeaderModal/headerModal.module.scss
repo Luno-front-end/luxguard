@@ -1,0 +1,45 @@
+.header_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 45px;
+
+  //   padding: 5px 24px;
+}
+
+.header {
+  color: #858381;
+
+  text-align: center;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  /* Hedline/Small (H3) */
+  font-family: "Familjen Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 137.5% */
+  text-transform: uppercase;
+}
+
+.btn_close {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+
+  display: inline-block;
+
+  transform: translate(0, -50%);
+}
+
+.btn_close_reverse {
+  right: 24px;
+  left: auto;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
