@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { useViewportSize } from "../../../hooks/useViewport";
 import { ReactComponent as Arrow } from "../../../img/arrow.svg";
 import { Cards } from "./Cards";
+import { manifest } from "../../../data/manifest";
 
 export const SectionOurServices: FC = () => {
   const { t } = useTranslation();
@@ -49,6 +50,7 @@ export const SectionOurServices: FC = () => {
           onClick={() => {}}
           additionalClass={true}
           customClass={s.btn}
+          isLink={{ to: manifest.allServices.path }}
         >
           <span>
             {t("buttons.btnAllServices")}

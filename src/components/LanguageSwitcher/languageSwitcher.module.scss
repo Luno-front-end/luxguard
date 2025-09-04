@@ -1,0 +1,126 @@
+// .container_radio {
+//   display: inline-flex;
+//   border-radius: 8px;
+//   padding: 3px;
+
+//   border: 1px solid rgba(243, 226, 175, 0.3);
+
+//   background: radial-gradient(
+//       50% 50% at 50% 50%,
+//       rgba(248, 190, 96, 0.08) 0%,
+//       rgba(213, 178, 101, 0.08) 100%
+//     ),
+//     linear-gradient(180deg, #1a1a1a 0%, rgba(26, 26, 26, 0) 65.8%), #040404;
+
+//   // margin-bottom: 24px;
+//   margin-right: 16px;
+// }
+
+// .input_radio {
+//   display: none;
+// }
+
+// .label {
+//   padding: 6px 12px;
+
+//   border-radius: 4px;
+
+//   color: #fff;
+//   text-align: center;
+
+//   font-family: "Familjen Grotesk";
+//   font-size: 10px;
+//   font-style: normal;
+//   font-weight: 600;
+//   line-height: 12px; /* 120% */
+//   letter-spacing: 0.3px;
+//   text-transform: uppercase;
+
+//   cursor: pointer;
+
+//   transition: all 0.3s linear;
+
+//   &:not(:last-child) {
+//     margin-right: 2px;
+//   }
+// }
+
+// .input_radio:checked + .label {
+//   padding: 6px 12px;
+//   width: 50%;
+
+//   border-radius: 4px;
+//   background: rgba(243, 226, 175, 0.08);
+
+//   color: #f3e2af;
+//   text-align: center;
+
+//   font-family: "Familjen Grotesk";
+//   font-size: 10px;
+//   font-style: normal;
+//   font-weight: 600;
+//   line-height: 12px;
+//   letter-spacing: 0.3px;
+//   text-transform: uppercase;
+// }
+
+.container_radio {
+  display: inline-flex;
+  border-radius: 8px;
+  padding: 3px;
+  border: 1px solid rgba(243, 226, 175, 0.3);
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(248, 190, 96, 0.08) 0%,
+      rgba(213, 178, 101, 0.08) 100%
+    ),
+    linear-gradient(180deg, #1a1a1a 0%, rgba(26, 26, 26, 0) 65.8%), #040404;
+  margin-right: 16px;
+}
+
+.input_radio {
+  // Як і раніше, ховаємо стандартний інпут
+  display: none;
+}
+
+.label {
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-family: "Familjen Grotesk";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; // Змінив linear на ease-in-out для плавності
+
+  &:not(:last-child) {
+    margin-right: 2px;
+  }
+}
+
+// --- ГОЛОВНА ЗМІНА: Керуємо активним станом через глобальний атрибут ---
+
+// Створюємо загальний стиль для активного стану, щоб не дублювати код
+%active-label-style {
+  background: rgba(243, 226, 175, 0.08);
+  color: #f3e2af;
+}
+
+// Застосовуємо активний стиль до лейбла 'en',
+// коли на <html> є атрибут data-lang="en"
+:root[data-lang="en"] .label[for*="-en"] {
+  @extend %active-label-style;
+}
+
+// Застосовуємо активний стиль до лейбла 'uk',
+// коли на <html> є атрибут data-lang="uk"
+:root[data-lang="uk"] {
+  .label[for*="-uk"] {
+    @extend %active-label-style;
+  }
+}

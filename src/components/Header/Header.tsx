@@ -1,20 +1,21 @@
-import { CustomBtn } from "../CustomBtn/CustomBtn";
-import s from "./header.module.scss";
+import { Fragment } from "react";
+import { useTranslation } from "react-i18next";
+import { useViewportSize } from "../../hooks/useViewport";
 import { ReactComponent as Logo } from "../../img/logo.svg";
 import { ReactComponent as Menu } from "../../img/menu.svg";
-import { useViewportSize } from "../../hooks/useViewport";
-import { Fragment, use } from "react";
-import { useTranslation } from "react-i18next";
+import { CustomBtn } from "../CustomBtn/CustomBtn";
+import s from "./header.module.scss";
 // import { LanguageSwitcher } from "./LanguageSwitcher";
-import { useLang, useMenuActive, useModalActive } from "../../zustand/store";
 import { useLocation } from "react-router-dom";
+import { useLang, useMenuActive, useModalActive } from "../../zustand/store";
+import { LanguageSwitcher } from "../LanguageSwitcher/LanguageSwitcher";
 
 const contactOptions = [
   { value: "en", label: "EN" },
   { value: "uk", label: "UA" },
 ];
 
-export const Header = () => {
+export const Header = ({ currentLang, onLangChange }: any) => {
   const { t } = useTranslation();
   const location = useLocation();
 
@@ -24,10 +25,10 @@ export const Header = () => {
 
   const { setLang, lang } = useLang();
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { value } = event.target;
-    setLang(value);
-  };
+  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   const { value } = event.target;
+  //   setLang(value);
+  // };
   const { width } = useViewportSize();
 
   const { setIsOpenMenu } = useMenuActive();
@@ -62,7 +63,14 @@ export const Header = () => {
             <Logo className={`"mr-[24px]`} />
           </CustomBtn>
 
-          <CustomBtn onClick={() => {}}>{t("buttons.btnGetInTouch")}</CustomBtn>
+          <CustomBtn
+            onClick={() => {
+              setIsOpenModal(true);
+              setIsOpenMenu(false);
+            }}
+          >
+            {t("buttons.btnGetInTouch")}
+          </CustomBtn>
         </div>
       ) : (
         <>
@@ -75,7 +83,7 @@ export const Header = () => {
             <Logo className={`w-[45.411px] h-[47.997px] ${s.logo}`} />
           </CustomBtn>
           <div>
-            <div className={s.container_radio}>
+            {/* <div className={s.container_radio}>
               {contactOptions.map((option) => (
                 <Fragment key={option.value}>
                   <input
@@ -92,9 +100,17 @@ export const Header = () => {
                   </label>
                 </Fragment>
               ))}
-            </div>
+            </div> */}
+
+            <LanguageSwitcher
+              currentLang={currentLang}
+              onLangChange={onLangChange}
+            />
             <CustomBtn
-              onClick={() => {}}
+              onClick={() => {
+                setIsOpenModal(true);
+                setIsOpenMenu(false);
+              }}
               customClass={s.btn_desk}
               additionalClass={true}
             >

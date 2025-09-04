@@ -11,6 +11,7 @@ interface ICustomRadioBtnProps {
   setSelectedValue: Dispatch<SetStateAction<string>>;
   customClassContainer?: string;
   additionalClass?: string;
+  customClassInput?: string;
 }
 
 export const CustomRadioBtn: FC<ICustomRadioBtnProps> = ({
@@ -20,15 +21,16 @@ export const CustomRadioBtn: FC<ICustomRadioBtnProps> = ({
   setSelectedValue,
   customClassContainer,
   additionalClass,
+  customClassInput,
 }) => {
-  //   const [selectedValue, setSelectedValue] = useState("form");
-
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target;
+    console.log(value);
+    if (selectedValue === value) {
+      return;
+    }
     setSelectedValue(value);
   };
-
-  // s.container_radio
 
   return (
     <div className={s.wrapper_contact_options}>
@@ -50,7 +52,7 @@ export const CustomRadioBtn: FC<ICustomRadioBtnProps> = ({
               value={option.value}
               checked={selectedValue === option.value}
               onChange={handleChange}
-              className={s.input_radio}
+              className={customClassInput ? customClassInput : s.input_radio}
             />
             <label htmlFor={option.value} className={s.label}>
               {option.label}

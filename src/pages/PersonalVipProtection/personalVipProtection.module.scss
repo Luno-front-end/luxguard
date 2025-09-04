@@ -172,7 +172,6 @@
     grid-auto-flow: column;
     grid-row-gap: 24px;
 
-    /* Створюємо рівно 2 рядки з автоматичною висотою */
     grid-template-rows: repeat(3, auto);
   }
 }
@@ -184,5 +183,8 @@
 
     /* Створюємо рівно 2 рядки з автоматичною висотою */
     grid-template-rows: repeat(2, auto);
+  }
+  .list_protection_oneColumn {
+    grid-template-rows: repeat(1, auto);
   }
 }

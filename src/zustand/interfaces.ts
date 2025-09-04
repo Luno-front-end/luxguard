@@ -1,5 +1,5 @@
 export interface ILang {
-  lang: "en" | "uk";
+  lang: string;
   setLang: (value: any) => void;
 }
 

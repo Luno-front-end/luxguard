@@ -58,71 +58,6 @@
   margin-bottom: 24px;
 }
 
-// .input_radio {
-//   display: none;
-// }
-
-// .label {
-//   padding: 15.5px 20px;
-//   font-family: "Familjen Grotesk", sans-serif;
-//   font-size: 14px;
-//   font-weight: 600;
-//   width: 50%;
-
-//   text-transform: uppercase;
-//   color: #a0a0a0;
-//   cursor: pointer;
-//   border-radius: 6px;
-//   transition: all 0.3s linear;
-
-//   color: var(--Key-White, #fff);
-//   text-align: center;
-
-//   font-family: "Familjen Grotesk";
-//   font-size: 14px;
-//   font-style: normal;
-//   font-weight: 700;
-//   line-height: 16px;
-//   text-transform: uppercase;
-
-//   &:not(:last-child) {
-//     margin-right: 8px;
-//   }
-// }
-
-// .input_radio:checked + .label {
-//   padding: 15.5px 20px;
-//   width: 50%;
-
-//   border-radius: 6px;
-//   background: rgba(243, 226, 175, 0.08);
-
-//   color: #f3e2af;
-//   text-align: center;
-
-//   font-family: "Familjen Grotesk";
-//   font-size: 14px;
-//   font-style: normal;
-//   font-weight: 700;
-//   line-height: 16px;
-//   text-transform: uppercase;
-// }
-
-.text {
-  color: rgba(255, 255, 255, 0.5);
-
-  margin-bottom: 8px;
-
-  text-align: center;
-  /* Body/Small */
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: -0.6px;
-}
-
 .wrapper_input_form {
   position: relative;
   margin-bottom: 24px;
@@ -131,203 +66,46 @@
   border: 1px solid rgba(243, 226, 175, 0.15);
 }
 
-// .wrapper_input_form_noBorder {
-//   border-bottom: none;
-//   border-bottom-left-radius: 0;
-//   border-bottom-right-radius: 0;
-// }
+.callYou_wrapper {
+  display: flex;
+  flex-direction: column;
 
-// .subHolder {
-//   position: absolute;
-//   top: 7.5px;
-//   left: 20px;
+  color: rgba(255, 255, 255, 0.5);
 
-//   background: linear-gradient(
-//     0deg,
-//     #a1835d -5.56%,
-//     #f3e2af 44.41%,
-//     #a1835d 94.44%
-//   );
-//   background-clip: text;
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-overflow: ellipsis;
+  /* Body/Large */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.8px;
 
-//   /* Label/Small */
-//   font-family: "Familjen Grotesk";
-//   font-size: 10px;
-//   font-style: normal;
-//   font-weight: 600;
-//   line-height: 12px; /* 120% */
-//   letter-spacing: 0.3px;
-//   text-transform: uppercase;
-// }
-
-// .input_form {
-//   width: 100%;
-//   background-color: transparent;
-
-//   color: rgba(255, 255, 255, 0.5);
-
-//   padding: 12px 8px 12px 20px;
-
-//   &.withCustomPholder {
-//     padding: 16.5px 8px 7.5px 20px;
-//   }
-//   &::placeholder {
-//     color: rgba(255, 255, 255, 0.5);
-//     /* Body/Large */
-//     font-family: Inter;
-//     font-size: 16px;
-//     font-style: normal;
-//     font-weight: 300;
-//     line-height: 20px; /* 125% */
-//     letter-spacing: -0.8px;
-//   }
-// }
-
-// .textarea_form {
-//   background: transparent;
-
-//   width: 100%;
-
-//   min-height: 88px;
-//   padding: 8px 8px 8px 20px;
-//   flex-direction: column;
-//   align-items: flex-start;
-//   gap: 8px;
-//   align-self: stretch;
-
-//   border-radius: 6px;
-//   border: 1px solid rgba(243, 226, 175, 0.15);
-
-//   resize: none;
-
-//   &::placeholder {
-//     color: rgba(255, 255, 255, 0.5);
-
-//     /* Body/Large */
-//     font-family: Inter;
-//     font-size: 16px;
-//     font-style: normal;
-//     font-weight: 300;
-//     line-height: 20px; /* 125% */
-//     letter-spacing: -0.8px;
-//   }
-// }
-
-// .wrapper_textarea {
-//   margin-bottom: 24px;
-// }
-
-// .wrapper_input_form_policy {
-//   display: flex;
-
-//   align-items: start;
-//   //   margin-bottom: 24px;
-// }
-
-// .input_checkbox {
-//   margin-right: 12px;
-// }
-
-// .label_form_policy {
-//   color: rgba(255, 255, 255, 0.5);
-
-//   /* Body/Small */
-//   font-family: Inter;
-//   font-size: 12px;
-//   font-style: normal;
-//   font-weight: 300;
-//   line-height: 14px; /* 116.667% */
-//   letter-spacing: -0.6px;
-
-//   margin-bottom: 24px;
-
-//   & a {
-//     color: #fff;
-//     /* Body/Small */
-//     font-family: Inter;
-//     font-size: 12px;
-//     font-style: normal;
-//     font-weight: 300;
-//     line-height: 14px;
-//     letter-spacing: -0.6px;
-//   }
-// }
-
-// .btn_book {
-//   width: 100%;
-//   padding: 17px 20px;
-//   margin-bottom: 4px;
-
-//   cursor: pointer;
-
-//   border-radius: var(--border-radius-corners-6-px, 6px);
-//   border: 1px solid rgba(0, 0, 0, 0.12);
-
-//   background: #0a0a0a;
-
-//   box-shadow: 0 0 8px 0 rgba(87, 87, 87, 0.75) inset;
-
-//   color: #575757;
-
-//   text-align: center;
-
-//   font-family: "Familjen Grotesk";
-//   font-size: 16px;
-//   font-style: normal;
-//   font-weight: 700;
-//   line-height: 18px; /* 112.5% */
-//   text-transform: uppercase;
-// }
-
-// .wrapper_info_text {
-//   display: flex;
-//   justify-content: center;
-// }
-
-// .info_text {
-//   background: linear-gradient(
-//     0deg,
-//     #765f41 -5.56%,
-//     #f3e2af 44.41%,
-//     #765f41 94.44%
-//   );
-//   background-clip: text;
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;
-
-//   font-family: Inter;
-//   font-size: 12px;
-//   font-style: normal;
-//   font-weight: 300;
-//   line-height: 14px; /* 116.667% */
-//   letter-spacing: -0.6px;
-// }
+  padding-bottom: 24px;
+}
+.callYou_first {
+}
+.callYou_wrapper_second {
+}
+.callYou_second {
+}
+.callYou_third {
+  color: #fff;
+  text-overflow: ellipsis;
+  /* Body/Large */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: -0.8px;
+}
 
 @media screen and (min-width: 1280px) {
-  // .wrapper_content_desk {
-  //   display: flex;
-  // }
-
-  // .wrapper_inputs_desk {
-  //   width: 50%;
-  //   margin-right: 24px;
-  // }
-  // .wrapper_textarea_desk {
-  //   width: 50%;
-  // }
-  // .textarea_form {
-  //   height: 192px;
-  // }
-
   .container_radio {
     width: 30%;
   }
-
-  // .wrapper_input_form_policy {
-  //   max-width: 410px;
-  // }
 
   .wrapper_contact_options {
     width: 100%;
@@ -335,13 +113,4 @@
     justify-content: center;
     align-items: center;
   }
-
-  // .wrapper_btn_desk {
-  //   display: flex;
-  //   justify-content: center;
-  // }
-
-  // .btn_book {
-  //   max-width: 328px;
-  // }
 }

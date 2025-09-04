@@ -142,7 +142,7 @@ export const PersonalVipProtection = () => {
             customClass={s.btn}
             onClick={() => {}}
           >
-            get in touch
+            {t("buttons.btnGetInTouch")}
           </CustomBtn>
         </div>
       </div>

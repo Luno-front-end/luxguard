@@ -5,6 +5,7 @@ import { CustomRadioBtn } from "../CustomRadioBtn/CustomRadioBtn";
 import { useTranslation } from "react-i18next";
 import { CustomForm } from "../CustomForm/CustomForm";
 import { useModalActive } from "../../zustand/store";
+import { ContactTab } from "../ContactTab/ContactTab";
 
 export const Modal = () => {
   const [selectedValue, setSelectedValue] = useState("formModal");
@@ -26,7 +27,7 @@ export const Modal = () => {
       }
     >
       <HeaderModal reverse={true} isMenu={false}>
-        navigation menu
+        {t("popups.modal")}
       </HeaderModal>
       <div>
         <CustomRadioBtn
@@ -37,7 +38,27 @@ export const Modal = () => {
           additionalClass={s.container_radio_modal}
         />
       </div>
-      <CustomForm isMini={true} />
+      <p className={s.text}>
+        <span className={s.callYou_wrapper}>
+          <span className={s.callYou_first}>
+            {t("getInTouch.callYou.first")}
+          </span>{" "}
+          <span className={s.callYou_wrapper_second}>
+            {" "}
+            <span className={s.callYou_second}>
+              {t("getInTouch.callYou.second")}
+            </span>{" "}
+            <span className={s.callYou_third}>
+              {t("getInTouch.callYou.third")}
+            </span>
+          </span>
+        </span>
+      </p>
+      {selectedValue === "formModal" ? (
+        <CustomForm isMini={true} />
+      ) : (
+        <ContactTab />
+      )}
     </div>
   );
 };

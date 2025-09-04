@@ -1,0 +1,117 @@
+@import "../../styles/variables.scss";
+
+.container_tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapper {
+  //   display: inline-block;
+  //   display: flex;
+  //   flex-direction: column;
+  //   gap: 24px;
+  width: 100%;
+  max-width: 328px; // Прикладна ширина
+}
+
+.numbersContainer {
+  max-width: 328px;
+
+  margin-bottom: 24px;
+}
+
+.numberRow {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #121212;
+  border: 1px solid #4a3c27;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &:hover {
+    border-color: #a1835d;
+  }
+}
+
+.numberRow.active {
+  border: 1px solid rgba(243, 226, 175, 0.3);
+
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(248, 190, 96, 0.08) 0%,
+      rgba(213, 178, 101, 0.08) 100%
+    ),
+    linear-gradient(180deg, #1a1a1a 0%, rgba(26, 26, 26, 0) 65.8%), #333026;
+
+  box-shadow: 0 2px 8px 0 rgba(3, 3, 3, 0.16);
+  backdrop-filter: blur(14px);
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+}
+
+.numberText {
+  flex-grow: 1; // Займає весь доступний простір
+  text-align: center;
+
+  text-align: center;
+  color: $white;
+
+  /* Label/Large */
+  font-family: "Familjen Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.numberTextActive {
+  color: #f3e2af;
+}
+
+.copyIcon {
+  width: 24px;
+  height: 24px;
+  //   margin-left: 12px;
+}
+
+.callButton {
+  display: inline-block;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 100%;
+  background: linear-gradient(
+    276deg,
+    #8e5c24 0.96%,
+    #f3e2af 50.15%,
+    #8e5c24 99.34%
+  );
+  box-shadow: 0 2px 6px 0 rgba(243, 226, 175, 0.16), 0 1px 1px 0 #f3e2af inset;
+
+  padding: 17px 20px;
+
+  max-width: 328px;
+
+  color: #422e11;
+  text-align: center;
+
+  /* Label/Large */
+  font-family: "Familjen Grotesk";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px; /* 112.5% */
+  text-transform: uppercase;
+
+  cursor: pointer;
+}

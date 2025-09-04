@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { createJSONStorage, devtools, persist } from "zustand/middleware";
 import { ILang, IMenuActive, IModalActive } from "./interfaces";
+import i18n from "../i18n";
 
 // export const useUser = create<IGetUser>()(
 //   persist(
@@ -34,13 +35,26 @@ import { ILang, IMenuActive, IModalActive } from "./interfaces";
 //   )
 // );
 
-export const useLang = create<ILang>()(
-  devtools((set) => ({
-    lang: "en",
-    setLang: (lang) => set({ lang }),
-  }))
-);
+// export const useLang = create<ILang>()(
+//   devtools((set) => ({
+//     lang: i18n.language.split("-")[0],
+//     setLang: (newLang) => {
+//       // Спочатку даємо команду i18next змінити мову
+//       i18n.changeLanguage(newLang);
+//       // Потім оновлюємо наш стан в Zustand
+//       set({ lang: newLang });
+//     },
+//   }))
+// );
 
+export const useLang = create<ILang>()((set) => ({
+  lang: i18n.language.split("-")[0],
+  setLang: (newLang) => {
+    i18n.changeLanguage(newLang);
+    set({ lang: newLang });
+    document.documentElement.setAttribute("data-lang", newLang);
+  },
+}));
 export const useMenuActive = create<IMenuActive>()(
   devtools((set) => ({
     isOpenMenu: false,

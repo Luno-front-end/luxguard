@@ -676,42 +676,6 @@
     }
   },
 
-  "personalVIPProtection": {
-    "title": "personal VIP protection",
-    "subtitle": "Safety, control, confidence",
-    "section": {
-      "title": "Clean, control and quality",
-      "text": "In the modern rhythm of life, security should be invisible, but absolute. LUXGUARD PRESTIGE GROUP provides personal protection to VIPs in Ukraine and abroad — creating conditions in which you can fully focus on negotiations, decision-making or public events. We act in the «format of a quiet presence» that does not attract attention, but completely keeps the situation under control. It's — not just security. This is personalized risk management in real time.",
-      "cards": {
-        "title": "LUXGUARD provides",
-        "cardOne": {
-          "title": "Personal Security Officer (CPO) with combat,",
-          "subtitle": "government or diplomatic experience"
-        },
-        "cardTwo": {
-          "title": "Premium cars with a driver-guard",
-          "subtitle": "(Mercedes-Benz V-Class)"
-        },
-        "cardThree": {
-          "title": "Armored vehicles (protection level B6/B7) —",
-          "subtitle": "on individual request"
-        },
-        "cardFour": {
-          "title": "Route planning, risk assessment and control",
-          "subtitle": "of key points"
-        },
-        "cardFive": {
-          "title": "Real-time Global Positioning System (GPS)",
-          "subtitle": "monitoring"
-        },
-        "cardSix": {
-          "title": "Compliance with complete confidentiality ",
-          "subtitle": "and discretion at all stages of interaction"
-        }
-      }
-    }
-  },
-
   "askedQuestions": {
     "title": "Frequently Asked Questions",
 
@@ -739,6 +703,11 @@
     "title": "get in touch",
 
     "subtitle": "Fill in your data and select a service that we can help your goal:",
+    "callYou": {
+      "first": "CONTACT WITH OUR TEAM ANY TIME",
+      "second": "in a range -",
+      "third": "08:00 - 18:00"
+    },
     "inputs": {
       "inputName": {
         "first": "First name",
@@ -781,5 +750,18 @@
     "btnAllServices": "All services",
     "btnBookConsultation": "Book consultation",
     "btnOtherServices": "other Services"
+  },
+
+  "links": {
+    "ourServices": "our Services",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "cookiePreferences": "Cookie Preferences"
+  },
+
+  "popups": {
+    "menu": "navigation menu",
+    "modal": "Contact us"
   }
 }

@@ -108,6 +108,9 @@ export const SectionPrestigeGroup: FC = () => {
           variant="secondary"
           additionalClass={true}
           customClass={s.btn_secondary}
+          isLink={{
+            to: "/about-us",
+          }}
         >
           <span className="flex items-center justify-center">
             <span className="mr-[8px]">{t("buttons.btnMoreAboutUs")}</span>{" "}

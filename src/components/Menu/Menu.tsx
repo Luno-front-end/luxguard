@@ -1,12 +1,27 @@
-import React from "react";
+import React, { Fragment } from "react";
 import s from "./menu.module.scss";
 import { ReactComponent as Close } from "../../img/close.svg";
 import { CustomBtn } from "../CustomBtn/CustomBtn";
-import { useMenuActive } from "../../zustand/store";
+import { useLang, useMenuActive } from "../../zustand/store";
 import { HeaderModal } from "../HeaderModal/HeaderModal";
+import { CustomRadioBtn } from "../CustomRadioBtn/CustomRadioBtn";
+import { LanguageSwitcher } from "../LanguageSwitcher/LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
-export const Menu = () => {
+export const Menu = ({ currentLang, onLangChange }: any) => {
   const { isOpenMenu } = useMenuActive();
+  const { t } = useTranslation();
+  // const { lang, setLang } = useLang();
+
+  const langOption = [
+    { value: "en", label: "EN" },
+    { value: "uk", label: "UA" },
+  ];
+
+  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   const { value } = event.target;
+  //   setLang(value);
+  // };
 
   return (
     <div
@@ -26,30 +41,36 @@ export const Menu = () => {
         <h2 className={s.header}>navigation menu</h2>
       </div> */}
 
-      <HeaderModal>navigation menu</HeaderModal>
+      <HeaderModal>{t("popups.menu")}</HeaderModal>
       <ul className={s.wrapper_btns}>
         <li className={s.item}>
           <CustomBtn customClass={`${s.btn} ${s.btn_style}`} onClick={() => {}}>
-            About Us
+            {t("links.aboutUs")}
           </CustomBtn>
         </li>
         <li className={s.item}>
           <CustomBtn customClass={`${s.btn} ${s.btn_style}`} onClick={() => {}}>
-            Privacy Policy
+            {t("links.privacyPolicy")}
           </CustomBtn>
         </li>
         <li className={s.item}>
           <CustomBtn customClass={`${s.btn} ${s.btn_style}`} onClick={() => {}}>
-            Terms & Conditions
+            {t("links.termsConditions")}
           </CustomBtn>
         </li>
         <li className={s.item}>
           <CustomBtn customClass={`${s.btn} ${s.btn_style}`} onClick={() => {}}>
-            Cookie Preferences
+            {t("links.cookiePreferences")}
           </CustomBtn>
         </li>
-        {/* <li className={s.item}></li> */}
       </ul>
+
+      <div className={s.wrapper_language}>
+        <LanguageSwitcher
+          currentLang={currentLang}
+          onLangChange={onLangChange}
+        />
+      </div>
     </div>
   );
 };

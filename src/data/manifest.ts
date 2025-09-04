@@ -29,4 +29,8 @@ export const manifest: Record<string, TManifest> = {
     path: "/personal-vip-protection",
     title: "",
   },
+  aboutUs: {
+    path: "/about-us",
+    title: "",
+  },
 };

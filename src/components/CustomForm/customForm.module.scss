@@ -180,6 +180,21 @@
   letter-spacing: -0.6px;
 }
 
+.text {
+  color: rgba(255, 255, 255, 0.5);
+
+  margin-bottom: 8px;
+
+  text-align: center;
+  /* Body/Small */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: -0.6px;
+}
+
 @media screen and (min-width: 1280px) {
   .wrapper_content_desk {
     display: flex;
