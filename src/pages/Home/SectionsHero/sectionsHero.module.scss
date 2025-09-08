@@ -3,9 +3,10 @@
 .wrapper {
   padding-top: 186px;
   padding-bottom: 32px;
-  background-position: -300px;
 
   background-image: url(../../../img/animation_4.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wrapper_isAllServices {
   padding-bottom: 256px;
@@ -217,10 +218,11 @@
     line-height: 60px;
     letter-spacing: 1.12px;
   }
+
   .wrapper_btns_hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
   }
 
   .btn {
