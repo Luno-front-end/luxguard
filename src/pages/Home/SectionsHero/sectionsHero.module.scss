@@ -1,6 +1,7 @@
 @import "../../../styles/variables.scss";
 
 .wrapper {
+  position: relative;
   padding-top: 186px;
   padding-bottom: 32px;
 
@@ -8,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .wrapper_isAllServices {
   padding-bottom: 256px;
 }
@@ -15,7 +17,6 @@
 .wrapper_isVipProtection {
   padding-bottom: 256px;
   background-image: url(../../../img/animation_8.gif);
-  // background-image: url(../../../img/bg-our-services.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -188,6 +189,15 @@
     background-repeat: no-repeat;
   }
 
+  .logo_absolute {
+    position: absolute;
+
+    right: 50px;
+
+    width: 300px;
+    height: 300px;
+  }
+
   .wrapper_content_hero {
     display: flex;
     flex-direction: column;
@@ -218,11 +228,10 @@
     line-height: 60px;
     letter-spacing: 1.12px;
   }
-
   .wrapper_btns_hero {
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .btn {

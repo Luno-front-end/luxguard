@@ -1,10 +1,5 @@
 import { FC, Fragment, useId } from "react";
 import s from "./languageSwitcher.module.scss";
-import { useLang } from "../../zustand/store";
-
-// interface ILanguageSwitcherProps {
-//   option: { value: string; label: string }[];
-// }
 
 const option = [
   { value: "en", label: "EN" },
@@ -20,8 +15,6 @@ export const LanguageSwitcher: FC<LanguageSwitcherProps> = ({
   currentLang,
   onLangChange,
 }) => {
-  //   const { lang, setLang } = useLang();
-
   const uniqueId = useId();
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {

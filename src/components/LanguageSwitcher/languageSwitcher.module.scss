@@ -66,6 +66,7 @@
 
 .container_radio {
   display: inline-flex;
+
   border-radius: 8px;
   padding: 3px;
   border: 1px solid rgba(243, 226, 175, 0.3);
@@ -88,6 +89,8 @@
   border-radius: 4px;
   color: #fff;
   text-align: center;
+  display: flex;
+  align-items: center;
   font-family: "Familjen Grotesk";
   font-size: 10px;
   font-style: normal;

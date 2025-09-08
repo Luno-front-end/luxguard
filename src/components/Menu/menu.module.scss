@@ -18,7 +18,13 @@
 
   transition: all 0.3s linear;
 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
   overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .wrapper_menu_active {

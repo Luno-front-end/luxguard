@@ -2,6 +2,7 @@ import { CarouselComponent } from "../../../components/Carousel/Carousel";
 import { CustomBtn } from "../../../components/CustomBtn/CustomBtn";
 import s from "./sectionsHero.module.scss";
 import { ReactComponent as Car } from "../../../img/car.svg";
+import { ReactComponent as Logo } from "../../../img/logo.svg";
 import { Cards } from "./Cards";
 import { useViewportSize } from "../../../hooks/useViewport";
 import { useTranslation } from "react-i18next";
@@ -63,6 +64,9 @@ export const SectionsHero: FC<ISectionHeroProps> = ({
 
   return (
     <div className={classWrapper()}>
+      <div>
+        <Logo className={s.logo_absolute} />
+      </div>
       <div className={`container ${s.wrapper_hero_desk}`}>
         <div className={s.wrapper_content_hero}>
           <div>
