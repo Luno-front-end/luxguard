@@ -64,9 +64,11 @@ export const SectionsHero: FC<ISectionHeroProps> = ({
 
   return (
     <div className={classWrapper()}>
-      <div>
-        <Logo className={s.logo_absolute} />
-      </div>
+      {!isPersonalVipProtection && (
+        <div>
+          <Logo className={s.logo_absolute} />
+        </div>
+      )}
       <div className={`container ${s.wrapper_hero_desk}`}>
         <div className={s.wrapper_content_hero}>
           <div>
@@ -106,7 +108,6 @@ export const SectionsHero: FC<ISectionHeroProps> = ({
           </div>
         </div>
       </div>
-
       {!isAllServices && !isPersonalVipProtection && (
         <>
           {width <= 828 ? (
