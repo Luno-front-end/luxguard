@@ -12,6 +12,7 @@
     ),
     rgba(10, 10, 10, 0.4);
   backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 
   padding: 24px 16px 24px 16px;
   transform: translateX(-100%);
@@ -74,6 +75,91 @@
     margin-bottom: 8px;
   }
 }
+//////////
+
+.item_nav {
+  margin-bottom: 8px;
+}
+
+.select_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active_btn {
+  border-bottom: none !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(248, 190, 96, 0.06) 0%,
+    rgba(213, 178, 101, 0.06) 100%
+  ) !important;
+
+  color: #8d8b87 !important;
+  // transition: all 0.3s linear;
+}
+
+.arrow_icon {
+  transform: rotate(180deg);
+}
+
+.open_menu {
+  position: relative;
+  top: -0.7px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 12px 8px 12px 20px;
+
+  align-items: start;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-left: 1px solid rgba(243, 226, 175, 0.3);
+  border-right: 1px solid rgba(243, 226, 175, 0.3);
+  border-bottom: 1px solid rgba(243, 226, 175, 0.3);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(248, 190, 96, 0.06) 0%,
+    rgba(213, 178, 101, 0.06) 100%
+  );
+
+  opacity: 1;
+  height: 100%;
+
+  transition: opacity 0.3s linear, height 0.3s linear;
+}
+
+.close_menu {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  // transition: all 0.3s linear;
+  transition: opacity 0.3s linear, height 0.3s linear;
+}
+
+.btn_open_nav {
+  color: #fff;
+
+  /* Label/Medium */
+  font-family: "Familjen Grotesk";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  text-transform: uppercase;
+
+  transition: color 0.3s linear;
+}
+
+.wrapper_solo_btn {
+  margin-bottom: 16px;
+}
+
+//////////////////
 
 .btn {
   background: transparent;
@@ -83,6 +169,7 @@
 }
 
 .btn_style {
+  display: block;
   padding: 8px 8px 8px 20px;
   text-align: left;
 
@@ -117,69 +204,3 @@
 
   width: 100%;
 }
-
-// .container_radio {
-//   display: inline-flex;
-//   border-radius: 8px;
-//   padding: 3px;
-
-//   border: 1px solid rgba(243, 226, 175, 0.3);
-
-//   background: radial-gradient(
-//       50% 50% at 50% 50%,
-//       rgba(248, 190, 96, 0.08) 0%,
-//       rgba(213, 178, 101, 0.08) 100%
-//     ),
-//     linear-gradient(180deg, #1a1a1a 0%, rgba(26, 26, 26, 0) 65.8%), #040404;
-
-//   // margin-bottom: 24px;
-//   margin-right: 16px;
-// }
-
-// .input_radio {
-//   display: none;
-// }
-
-// .label {
-//   padding: 6px 12px;
-
-//   border-radius: 4px;
-
-//   color: #fff;
-//   text-align: center;
-
-//   font-family: "Familjen Grotesk";
-//   font-size: 10px;
-//   font-style: normal;
-//   font-weight: 600;
-//   line-height: 12px; /* 120% */
-//   letter-spacing: 0.3px;
-//   text-transform: uppercase;
-
-//   cursor: pointer;
-
-//   transition: all 0.3s linear;
-
-//   &:not(:last-child) {
-//     margin-right: 2px;
-//   }
-// }
-
-// .input_radio:checked + .label {
-//   padding: 6px 12px;
-//   width: 50%;
-
-//   border-radius: 4px;
-//   background: rgba(243, 226, 175, 0.08);
-
-//   color: #f3e2af;
-//   text-align: center;
-
-//   font-family: "Familjen Grotesk";
-//   font-size: 10px;
-//   font-style: normal;
-//   font-weight: 600;
-//   line-height: 12px;
-//   letter-spacing: 0.3px;
-//   text-transform: uppercase;
-// }

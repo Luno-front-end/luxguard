@@ -98,6 +98,16 @@
 .btn {
   max-width: 246px;
   width: 100%;
+  & span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .arrow {
+      fill: #422e11;
+      margin-left: 8px;
+    }
+  }
 }
 
 @media screen and (min-width: 530px) and (max-width: 1279px) {

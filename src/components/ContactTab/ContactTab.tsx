@@ -3,11 +3,13 @@ import s from "./contactTab.module.scss";
 import { ReactComponent as CheckIcon } from "../../img/checked-icon.svg";
 import { ReactComponent as CopyIcon } from "../../img/copy-icon.svg";
 import { ReactComponent as CopyIconActive } from "../../img/copy-icon-active.svg";
+import { useTranslation } from "react-i18next";
 
 const phoneNumbers = ["+38 (099) 999-55-55", "+38 (099) 888-44-44"]; // Ваші номери телефонів
 
 export const ContactTab = () => {
   const [selectedNumber, setSelectedNumber] = useState(phoneNumbers[0]);
+  const { t } = useTranslation();
 
   const handleNumberClick = (number: string) => {
     setSelectedNumber(number);
@@ -51,7 +53,7 @@ export const ContactTab = () => {
         </div>
 
         <a href={formattedTelLink} className={s.callButton}>
-          Call for consultation
+          {t("buttons.btnCallConsultation")}
         </a>
       </div>
     </div>

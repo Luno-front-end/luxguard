@@ -12,6 +12,9 @@ import { Menu } from "./components/Menu/Menu";
 import { Modal } from "./components/Modal/Modal";
 import { AboutUs } from "./pages/AboutUs/AboutUs";
 import { ScrollToTop } from "./hooks/useScrollToTop";
+import { Policy } from "./pages/PolicyTerms/Policy";
+import { Terms } from "./pages/PolicyTerms/Terms";
+import { BtnUp } from "./components/BtnUp/BtnUp";
 
 export const App = () => {
   const { lang, setLang } = useLang();
@@ -34,10 +37,8 @@ export const App = () => {
           element={<PersonalVipProtection />}
         />
         <Route path={`${manifest.aboutUs.path}`} element={<AboutUs />} />
-        {/* <Route
-          path={manifest.personalVipProtection.path}
-          element={<PersonalVipProtection />}
-        /> */}
+        <Route path={`${manifest.policy.path}`} element={<Policy />} />
+        <Route path={`${manifest.terms.path}`} element={<Terms />} />
       </Routes>
       <Footer />
       <Modal />

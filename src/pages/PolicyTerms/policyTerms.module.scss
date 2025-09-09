@@ -1,0 +1,110 @@
+.wrapper {
+  padding-top: 73px;
+  padding-bottom: 56px;
+}
+
+.wrapper_header {
+  margin-top: 56px;
+}
+
+.header_g {
+  margin-top: 32px;
+
+  text-align: center;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.8));
+  font-family: "Familjen Grotesk";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 106.25% */
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    0deg,
+    #a1835d -5.56%,
+    #f3e2af 44.41%,
+    #a1835d 94.44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper_header_policy {
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.header {
+  color: var(--Key-White, #fff);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+
+  /* Headline/Small (H3) */
+  font-family: "Familjen Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 130% */
+  text-transform: uppercase;
+
+  margin-bottom: 12px;
+}
+
+.text {
+  color: var(--Key-White, #fff);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+
+  /* Body/Large */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.8px;
+}
+
+.wrapper_all_content {
+}
+
+.wrapper_content {
+  &:nth-child(2) {
+    margin-top: 56px;
+  }
+}
+
+.text_wrapper {
+  color: var(--Key-White, #fff);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+
+  /* Body/Large */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.8px;
+
+  // &:not(:last-child) {
+  margin-bottom: 24px;
+  // }
+
+  & p {
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.wrapper_get_in_touch {
+  border-radius: var(--border-radius-corners-0-px, 0);
+  border-top: 1px solid rgba(142, 92, 36, 0.3);
+  background: linear-gradient(
+    180deg,
+    rgba(243, 226, 175, 0.06) 0%,
+    rgba(4, 3, 0, 0) 100%
+  );
+  backdrop-filter: blur(6px);
+
+  padding-top: 8px;
+}

@@ -13,17 +13,20 @@ export const CustomForm: FC<ICustomFormProps> = ({ isMini = false }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const serviceOptions = [
-    { value: "protection", label: "Personal VIP Protection" },
+    { value: "protection", label: t("servicesSelect.protection") },
     {
       value: "transport",
-      label: "premium level International transportation",
+      label: t("servicesSelect.transport"),
     },
-    { value: "VIPtransfer", label: "VIP transfer by armored van" },
-    { value: "transfersUkraine/EU", label: "Transfers Ukraine/EU" },
-    { value: "logistics", label: "Safe logistics and VIP delivery" },
-    { value: "premiumCarRental", label: "Premium car rental" },
-    { value: "assessment", label: "Expert assessment and consulting" },
-    { value: "risk", label: "Risk management" },
+    { value: "VIPtransfer", label: t("servicesSelect.VIPtransfer") },
+    {
+      value: "transfersUkraine/EU",
+      label: t("servicesSelect.transfersUkraine"),
+    },
+    { value: "logistics", label: t("servicesSelect.logistics") },
+    { value: "premiumCarRental", label: t("servicesSelect.premiumCarRental") },
+    { value: "assessment", label: t("servicesSelect.assessment") },
+    { value: "risk", label: t("servicesSelect.risk") },
   ];
 
   return (

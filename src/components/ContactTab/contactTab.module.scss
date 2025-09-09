@@ -8,12 +8,8 @@
 }
 
 .wrapper {
-  //   display: inline-block;
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 24px;
   width: 100%;
-  max-width: 328px; // Прикладна ширина
+  max-width: 328px;
 }
 
 .numbersContainer {
@@ -31,6 +27,9 @@
   border-radius: 6px;
   cursor: pointer;
   transition: border-color 0.3s ease;
+
+  width: 100%;
+  max-width: 328px;
 
   &:not(:last-child) {
     margin-bottom: 8px;
@@ -53,6 +52,9 @@
 
   box-shadow: 0 2px 8px 0 rgba(3, 3, 3, 0.16);
   backdrop-filter: blur(14px);
+
+  width: 100%;
+  width: 328px;
 }
 
 .checkbox {
@@ -88,6 +90,7 @@
 
 .callButton {
   display: inline-block;
+
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.12);
   width: 100%;

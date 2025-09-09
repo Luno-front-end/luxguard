@@ -739,7 +739,8 @@
     "btnIllCallYou": "Я зателефоную Вам",
     "btnAllServices": "Усі послуги",
     "btnBookConsultation": "Замовити консультацію",
-    "btnOtherServices": "Інші послуги"
+    "btnOtherServices": "Інші послуги",
+    "btnCallConsultation": "Замовити консультацію"
   },
 
   "links": {
@@ -753,5 +754,16 @@
   "popups": {
     "menu": "Меню навігації",
     "modal": "Зв'язатися з нами"
+  },
+
+  "servicesSelect": {
+    "protection": "Персональний VIP-захист",
+    "transport": "Міжнародні перевезення преміум-рівня",
+    "VIPtransfer": "VIP-трансфер броньованим авто",
+    "transfersUkraine": "Трансфери Україна/ЄС",
+    "logistics": "Безпечна логістика та VIP-доставка",
+    "premiumCarRental": "Оренда авто преміум-класу",
+    "assessment": "Експертна оцінка та консалтинг",
+    "risk": "Управління ризиками"
   }
 }

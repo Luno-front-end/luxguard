@@ -4,6 +4,11 @@
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+.menu_footer_wrapper {
+  position: relative;
+}
+
 .logo {
   margin-bottom: 16px;
 }
@@ -65,4 +70,34 @@
   border: none;
   padding: 0;
   box-shadow: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .menu_footer {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .slash {
+    display: inline-block;
+  }
+
+  .menu_footer_wrapper {
+    display: flex;
+    // margin-bottom: 32px;
+    &:not(:last-of-type) {
+      margin-bottom: 0;
+    }
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .logo {
+    margin-bottom: 51px;
+  }
+
+  .wrapper_btn {
+    max-width: 328px;
+  }
 }

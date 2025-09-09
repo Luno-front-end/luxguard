@@ -9,11 +9,13 @@ const option = [
 interface LanguageSwitcherProps {
   currentLang: string;
   onLangChange: (lang: string) => void;
+  customClassContainer?: string;
 }
 
 export const LanguageSwitcher: FC<LanguageSwitcherProps> = ({
   currentLang,
   onLangChange,
+  customClassContainer,
 }) => {
   const uniqueId = useId();
 
@@ -24,7 +26,7 @@ export const LanguageSwitcher: FC<LanguageSwitcherProps> = ({
   };
 
   return (
-    <div className={s.container_radio}>
+    <div className={`${s.container_radio} ${customClassContainer}`}>
       {option.map((option) => (
         <Fragment key={option.value}>
           <input

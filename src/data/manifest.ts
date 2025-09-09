@@ -33,4 +33,12 @@ export const manifest: Record<string, TManifest> = {
     path: "/about-us",
     title: "",
   },
+  policy: {
+    path: "/policy",
+    title: "",
+  },
+  terms: {
+    path: "/terms",
+    title: "",
+  },
 };

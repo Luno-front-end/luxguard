@@ -82,7 +82,7 @@ export const Header = ({ currentLang, onLangChange }: any) => {
           >
             <Logo className={`w-[45.411px] h-[47.997px] ${s.logo}`} />
           </CustomBtn>
-          <div className="flex">
+          <div className={s.wrapper_btn_lang}>
             {/* <div className={s.container_radio}>
               {contactOptions.map((option) => (
                 <Fragment key={option.value}>
@@ -105,6 +105,7 @@ export const Header = ({ currentLang, onLangChange }: any) => {
             <LanguageSwitcher
               currentLang={currentLang}
               onLangChange={onLangChange}
+              customClassContainer={s.container_radio}
             />
             <CustomBtn
               onClick={() => {

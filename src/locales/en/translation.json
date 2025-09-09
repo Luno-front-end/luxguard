@@ -749,7 +749,8 @@
     "btnIllCallYou": "I`ll call you",
     "btnAllServices": "All services",
     "btnBookConsultation": "Book consultation",
-    "btnOtherServices": "other Services"
+    "btnOtherServices": "other Services",
+    "btnCallConsultation": "Call for consultation"
   },
 
   "links": {
@@ -763,5 +764,23 @@
   "popups": {
     "menu": "navigation menu",
     "modal": "Contact us"
+  },
+  "policy": {
+    "menu": "navigation menu",
+    "modal": "Contact us"
+  },
+  "terms": {
+    "menu": "navigation menu",
+    "modal": "Contact us"
+  },
+  "servicesSelect": {
+    "protection": "Personal VIP Protection",
+    "transport": "premium level International transportation",
+    "VIPtransfer": "VIP transfer by armored van",
+    "transfersUkraine": "Transfers Ukraine/EU",
+    "logistics": "Safe logistics and VIP delivery",
+    "premiumCarRental": "Premium car rental",
+    "assessment": "Expert assessment and consulting",
+    "risk": "Risk management"
   }
 }

@@ -40,29 +40,7 @@ export const SectionGetInTouch = () => {
         selectedValue={selectedValue}
         setSelectedValue={setSelectedValue}
       />
-      {/* <p className={s.text}>
-        {" "}
-        {selectedValue === "form" ? (
-          t("getInTouch.subtitle")
-        ) : (
-          <>
-            <span className={s.callYou_wrapper}>
-              <span className={s.callYou_first}>
-                {t("getInTouch.callYou.first")}
-              </span>{" "}
-              <span className={s.callYou_wrapper_second}>
-                {" "}
-                <span className={s.callYou_second}>
-                  {t("getInTouch.callYou.second")}
-                </span>{" "}
-                <span className={s.callYou_third}>
-                  {t("getInTouch.callYou.third")}
-                </span>
-              </span>
-            </span>
-          </>
-        )}
-      </p> */}
+
       {selectedValue === "form" ? <CustomForm /> : <ContactTab />}
     </div>
   );
