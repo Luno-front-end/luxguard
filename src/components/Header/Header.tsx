@@ -53,7 +53,7 @@ export const Header = ({ currentLang, onLangChange }: any) => {
       </div>
 
       {width < 1280 ? (
-        <div className="flex">
+        <>
           <CustomBtn
             onClick={() => {}}
             additionalClass={true}
@@ -62,7 +62,6 @@ export const Header = ({ currentLang, onLangChange }: any) => {
           >
             <Logo className={`"mr-[24px]`} />
           </CustomBtn>
-
           <CustomBtn
             onClick={() => {
               setIsOpenModal(true);
@@ -71,7 +70,7 @@ export const Header = ({ currentLang, onLangChange }: any) => {
           >
             {t("buttons.btnGetInTouch")}
           </CustomBtn>
-        </div>
+        </>
       ) : (
         <>
           <CustomBtn
@@ -83,25 +82,6 @@ export const Header = ({ currentLang, onLangChange }: any) => {
             <Logo className={`w-[45.411px] h-[47.997px] ${s.logo}`} />
           </CustomBtn>
           <div className={s.wrapper_btn_lang}>
-            {/* <div className={s.container_radio}>
-              {contactOptions.map((option) => (
-                <Fragment key={option.value}>
-                  <input
-                    type="radio"
-                    id={option.value}
-                    name={"languageOptions"}
-                    value={option.value}
-                    checked={lang === option.value}
-                    onChange={handleChange}
-                    className={s.input_radio}
-                  />
-                  <label htmlFor={option.value} className={s.label}>
-                    {option.label}
-                  </label>
-                </Fragment>
-              ))}
-            </div> */}
-
             <LanguageSwitcher
               currentLang={currentLang}
               onLangChange={onLangChange}

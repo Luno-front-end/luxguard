@@ -56,6 +56,11 @@
   margin-bottom: 12px;
 }
 
+.icon {
+  width: 128px;
+  height: 128px;
+}
+
 .header_card {
   color: var(--Key-White, #fff);
   text-align: center;
@@ -147,6 +152,11 @@
     width: auto;
 
     margin-bottom: 0;
+  }
+
+  .icon {
+    width: 186px;
+    height: 186px;
   }
 
   .header_card {

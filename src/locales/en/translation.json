@@ -754,6 +754,7 @@
   },
 
   "links": {
+    "home": "Home",
     "ourServices": "our Services",
     "aboutUs": "About Us",
     "privacyPolicy": "Privacy Policy",

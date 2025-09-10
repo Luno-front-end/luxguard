@@ -14,18 +14,21 @@ export const SectionOurServices: FC = () => {
   const cards = [
     {
       id: 1,
+      img: 'personIcon',
       titleFirst: t("ourServices.cards.cardOne.title_first"),
       titleSecond: t("ourServices.cards.cardOne.title_second"),
       subtitle: t("ourServices.cards.cardOne.subtitle"),
     },
     {
       id: 2,
+      img: 'pitIcon',
       titleFirst: t("ourServices.cards.cardTwo.title_first"),
       titleSecond: t("ourServices.cards.cardTwo.title_second"),
       subtitle: t("ourServices.cards.cardTwo.subtitle"),
     },
     {
       id: 3,
+      img: 'vavIcon',
       titleFirst: t("ourServices.cards.cardThree.title_first"),
       titleSecond: t("ourServices.cards.cardThree.title_second"),
       subtitle: t("ourServices.cards.cardThree.subtitle"),

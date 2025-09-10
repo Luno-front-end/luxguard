@@ -24,9 +24,11 @@
 }
 
 .item {
+  display: flex;
+
   padding: var(--gap-spacing-12-px, 12px) var(--gap-spacing-8-px, 8px);
-  flex-direction: column;
-  align-items: flex-start;
+  // flex-direction: column;
+  // align-items: flex-start;
   // gap: var(--gap-spacing-12-px, 12px);
   border-radius: var(--border-radius-corners-6-px, 6px);
   border: 1.2px solid rgba(142, 92, 36, 0);
@@ -64,7 +66,13 @@
 }
 
 .icon {
-  margin-bottom: 12px;
+  // margin-bottom: 12px;
+  display: block;
+  margin-right: 12px;
+  height: 24px;
+  width: 24px;
+
+  flex-shrink: 0;
 }
 
 .text_last {
