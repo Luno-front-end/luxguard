@@ -3,6 +3,8 @@ import s from "./customForm.module.scss";
 import { CustomSelect } from "../CustomSelect/CustomSelect";
 import { FC, useState } from "react";
 import { CustomCheckbox } from "../CustomCheckbox/CustomCheckbox";
+import { Link } from "react-router-dom";
+import { manifest } from "../../data/manifest";
 
 interface ICustomFormProps {
   isMini?: boolean;
@@ -104,13 +106,13 @@ export const CustomForm: FC<ICustomFormProps> = ({ isMini = false }) => {
 
               <p className={s.label_form_policy}>
                 {t("getInTouch.policy.textFirst")}{" "}
-                <a href="https://google.com" className={s.link}>
+                <Link to={manifest.policy.path} className={s.link}>
                   {t("getInTouch.policy.linkOne")}
-                </a>{" "}
+                </Link>{" "}
                 {t("getInTouch.policy.textSecond")}{" "}
-                <a href="https://google.com" className={s.link}>
+                <Link to={manifest.terms.path} className={s.link}>
                   {t("getInTouch.policy.linkTwo")}
-                </a>
+                </Link>
               </p>
             </div>
             <div className={isMini ? "" : s.wrapper_btn_desk}>

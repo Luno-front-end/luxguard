@@ -16,17 +16,6 @@ export const SectionGetInTouch = () => {
     { value: "call", label: t("buttons.btnIllCallYou") },
   ];
 
-  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-  //   const { value } = event.target;
-  //   setSelectedValue(value);
-  // };
-
-  //   getInTouch
-  // callYou
-  // first
-  // second
-  // third
-
   return (
     <div className={`container ${s.wrapper}`}>
       <div className={s.wrapper_logo}>
