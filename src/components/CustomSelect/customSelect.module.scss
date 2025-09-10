@@ -77,7 +77,14 @@
   box-sizing: border-box;
 
   width: calc(100% + 2px);
-  background-color: #040300;
+  // background-color: transparent;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(248, 190, 96, 0.06) 0%,
+    rgba(213, 178, 101, 0.06) 100%
+  );
+
   border-radius: 6px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -88,6 +95,14 @@
   z-index: 10;
   max-height: 90px;
   overflow-y: auto;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .option {

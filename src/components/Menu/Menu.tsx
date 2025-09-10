@@ -150,6 +150,7 @@ export const Menu = ({ currentLang, onLangChange }: any) => {
               <CustomBtn
                 onClick={() => {
                   setIsOpenMenu(false);
+                  setIsOpenSelect(!isOpenSelect);
                   setIsOpenModal(true);
                 }}
                 additionalClass={true}
