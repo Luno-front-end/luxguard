@@ -740,6 +740,60 @@
     "lastText": "Fill in all required data to reserve consultation"
   },
 
+  "aboutUs": {
+    "header": "About Us",
+    "secOne": {
+      "title": "LUXGUARD PRESTIGE GROUP",
+      "infoOne": "Is not just a security company. It is a strategic partner that provides personal safety, armored transportation, VIP support, crisis consulting and risk management for customers working in a dynamic and high-risk environment.",
+      "infoTwo": "We speak the language of those responsible — leaders, diplomats, international delegations and private individuals who need not symbolic protection, but proven solutions based on experience, threat prevention and complete privacy.",
+      "infoThree": "Our team — is officers from special forces, state structures and diplomatic missions, used to acting under the pressure of time, in the war zone and emergency situations.",
+      "infoFour": "We work at the intersection of security, mobility and operational analysis, providing an accurate result where there is no right to error.",
+      "infoFive": "LUXGUARD operates in Ukraine, the EU and border regions — wherever reliability, experience and strategic thinking are needed."
+    },
+    "secTwo": {
+      "title": "How we work",
+      "subtitle": "Clarity. Transparency. The result.",
+      "text": "Each request — is unique. But the principles remain the same: strategic planning, full coordination and control at every stage. LUXGUARD PRESTIGE GROUP acts as a single management center for your security, mobility, and privacy."
+    },
+    "secThree": {
+      "title": "Our approach — 5 key stages",
+      "keys": {
+        "keyOne": {
+          "title": "Task analysis",
+          "subtitle": "We study the request, event format, risk level, publicity, special needs of the client."
+        },
+        "keyTwo": {
+          "title": "Decision formation",
+          "subtitle": "We select the optimal team, vehicle, means of communication, support and technical resources."
+        },
+        "keyThree": {
+          "title": "Approval and planning",
+          "subtitle": "We work out the route, briefing, backup scenarios. All — with customer approval."
+        },
+        "keyFour": {
+          "title": "Implementation and support",
+          "subtitle": "We implement the solution: the LPG — team is involved, guards, drivers, coordinators, dispatch center. Control 24/7."
+        },
+        "keyFive": {
+          "title": "Reporting and analysis",
+          "subtitle": "After completing —, a detailed report, performance evaluation and recommendations for the future."
+        }
+      }
+    },
+    "secFour": {
+      "title": "We guarantee",
+      "cardOne": {
+        "title": "Security without improvisation"
+      },
+      "cardTwo": {
+        "title": "Template-free solutions"
+      },
+      "cardThree": {
+        "title": "Full adaptation to changes"
+      }
+    }
+  },
+
   "buttons": {
     "btnGetInTouch": "Get in touch",
     "btnOurServices": "Our services",
